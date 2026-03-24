@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takado1974 - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include marked.js from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <header class="top-nav">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content container where Markdown will be injected -->
+    <main id="content">
+        <p>Loading content...</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Takado1974. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Fetch the content.md file
+        fetch('content.md')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok: ' + response.statusText);
+                }
+                return response.text();
+            })
+            .then(markdown => {
+                // Parse markdown into HTML using marked
+                const html = marked.parse(markdown);
+                // Inject the HTML into the #content element
+                document.getElementById('content').innerHTML = html;
+
+                // Add IDs to headers based on their text for navigation
+                const headers = document.querySelectorAll('#content h2');
+                headers.forEach(header => {
+                    const id = header.textContent.toLowerCase().replace(/\s+/g, '-');
+                    header.id = id;
+                });
+
+                // Set id for the top-level h1 for 'Home' link
+                const mainHeader = document.querySelector('#content h1');
+                if (mainHeader) {
+                    mainHeader.id = 'home';
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching or parsing content.md:', error);
+                document.getElementById('content').innerHTML = '<p>Error loading content. Please try again later.</p>';
+            });
+    </script>
+</body>
+</html>
