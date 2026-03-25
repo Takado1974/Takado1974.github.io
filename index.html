@@ -38,10 +38,26 @@
         </nav>
     </header>
 
-    <!-- Main content container where Markdown will be injected -->
-    <main id="content">
-        <p>Ladataan sisältöä...</p>
-    </main>
+    <div class="main-wrapper">
+        <aside id="news-sidebar">
+            <h3 id="news_header"></h3>
+            <div id="news-items">
+                <div class="news-item">
+                    <h4>Syksyn peruskurssit</h4>
+                    <p>Syksyn peruskurssit alkavat syyskuussa. Ilmoittaudu mukaan myClubissa!</p>
+                </div>
+                <div class="news-item">
+                    <h4>Uudet tilat käytössä</h4>
+                    <p>Takadon uudet harjoitustilat Pihatörmässä ovat nyt virallisesti auki.</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main content container where Markdown will be injected -->
+        <main id="content">
+            <p>Ladataan sisältöä...</p>
+        </main>
+    </div>
 
     <footer class="main-footer">
         <div class="footer-columns">
@@ -93,6 +109,7 @@
             document.getElementById('nav_harjoitusajat').textContent = langData.nav_harjoitusajat;
             document.getElementById('nav_hinnasto').textContent = langData.nav_hinnasto;
             document.getElementById('tagline').textContent = langData.tagline;
+            document.getElementById('news_header').textContent = langData.news_header;
 
             // Update footer
             document.getElementById('footer_contact').textContent = langData.footer_contact;
