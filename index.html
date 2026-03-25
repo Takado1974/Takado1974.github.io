@@ -150,8 +150,8 @@
             const filePath = `pages/${currentLang}/${pageName}.md`;
             const contentDiv = document.getElementById('content');
 
-            // Fetch and render the page content if it's not already loaded
-            if (contentDiv.dataset.currentPage !== pageName) {
+            // Fetch and render the page content if it's not already loaded OR if language has changed
+            if (contentDiv.dataset.currentPage !== pageName || contentDiv.dataset.currentLang !== currentLang) {
                 try {
                     const response = await fetch(filePath);
                     if (!response.ok) {
@@ -162,6 +162,7 @@
                     // Render markdown
                     contentDiv.innerHTML = marked.parse(markdown);
                     contentDiv.dataset.currentPage = pageName;
+                    contentDiv.dataset.currentLang = currentLang;
 
                     updateNavigationActiveState(pageName);
                     
