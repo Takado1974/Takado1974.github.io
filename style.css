@@ -269,12 +269,19 @@ main#content ul {
 }
 
 main#content img {
-    max-width: 100%;
+    max-width: 50%; /* Reduce size to 50% */
     height: auto;
     display: block;
     margin: 1.5rem auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure images are larger on mobile for readability */
+@media (max-width: 768px) {
+    main#content img {
+        max-width: 80%;
+    }
 }
 
 .main-footer {

@@ -1,6 +1,10 @@
 # Lajikuvaukset
 Takadossa harjoitellaan useita eri kamppailulajeja. Tältä sivulta löydät kuvaukset päälajeistamme.
 
+- [Brasilialainen jujutsu (BJJ)](#brasilialainen-jujutsu-bjj)
+- [Eurooppalainen jujutsu](#eurooppalainen-jujutsu)
+- [Escrima](#escrima)
+
 ## Brasilialainen jujutsu (BJJ)
 ![Brasilialainen jujutsu](images/lajit_bjj.jpg)
 Brasilialainen jujutsu (BJJ) on pääasiassa maassa käytävää kamppailua, jossa tavoitteena on saavuttaa hallitseva asema vastustajasta ja lopettaa ottelu erilaisilla lukoilla tai kuristuksilla. Lajissa ei käytetä lyöntejä tai potkuja, mikä tekee siitä erittäin turvallisen ja monipuolisen harrastuksen kaikenikäisille.
