@@ -266,6 +266,12 @@ main#content p {
 main#content ul {
     margin-bottom: 1rem;
     padding-left: 2rem;
+    color: #555;
+    font-size: 1.1rem;
+}
+
+main#content li {
+    margin-bottom: 0.5rem;
 }
 
 main#content img {
