@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Takado - Tervetuloa</title>
+    <title>Takado</title>
     <link rel="stylesheet" href="style.css">
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -17,14 +17,23 @@
                 <li>
                     <a href="#home" class="nav-logo">
                         <img src="images/cropped-takado-logo.png" alt="Takado Logo">
-                        <span class="nav-tagline">Kamppailua koko perheelle</span>
+                        <span class="nav-tagline" id="tagline"></span>
                     </a>
                 </li>
-                <li><a href="#tule-mukaan">Tule mukaan</a></li>
-                <li><a href="#lajikuvaukset">Lajikuvaukset</a></li>
-                <li><a href="#junioritoiminta">Junioritoiminta</a></li>
-                <li><a href="#harjoitusajat">Harjoitusajat</a></li>
-                <li><a href="#hinnasto">Hinnasto</a></li>
+                <li><a href="#tule-mukaan" id="nav_tule_mukaan"></a></li>
+                <li><a href="#lajikuvaukset" id="nav_lajikuvaukset"></a></li>
+                <li><a href="#junioritoiminta" id="nav_junioritoiminta"></a></li>
+                <li><a href="#harjoitusajat" id="nav_harjoitusajat"></a></li>
+                <li><a href="#hinnasto" id="nav_hinnasto"></a></li>
+                <li class="lang-switcher">
+                    <div class="dropdown">
+                        <button class="dropbtn" id="lang-btn"><i class="fa-solid fa-globe"></i> <span id="current-lang-text">FI</span> <i class="fa-solid fa-caret-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="javascript:void(0)" onclick="switchLanguage('fi')">Suomi</a>
+                            <a href="javascript:void(0)" onclick="switchLanguage('en')">English</a>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </nav>
     </header>
@@ -37,82 +46,121 @@
     <footer class="main-footer">
         <div class="footer-columns">
             <div class="footer-column">
-                <h3>Ota yhteyttä</h3>
+                <h3 id="footer_contact"></h3>
                 <p><a href="https://www.google.com/maps/search/?api=1&query=Pihat%C3%B6rm%C3%A4+1D,+4.krs,+02240+Espoo" target="_blank"><i class="fa-solid fa-location-dot"></i> Pihatörmä 1D, 4.krs, 02240 Espoo</a></p>
                 <p><a href="mailto:takado@takado.fi"><i class="fa-solid fa-envelope"></i> takado(at)takado.fi</a></p>
             </div>
             <div class="footer-column">
-                <h3>Löydät meidät myös</h3>
+                <h3 id="footer_social"></h3>
                 <p><a href="https://www.facebook.com/Takadory" target="_blank">Facebook</a></p>
                 <p><a href="https://www.instagram.com/takadory/" target="_blank">Instagram</a></p>
             </div>
             <div class="footer-column">
-                <h3>myClub</h3>
+                <h3 id="footer_myclub"></h3>
                 <p><a href="https://takado.myclub.fi/" target="_blank">myClub</a></p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Takado. Kaikki oikeudet pidätetään.</p>
+            <p id="footer_copyright"></p>
         </div>
     </footer>
 
     <script>
+        let currentLang = localStorage.getItem('lang') || 'fi';
+        let locales = {};
+
         /**
-         * Loads and renders a Markdown file based on the URL hash.
+         * Loads the localization file and updates the UI labels.
+         */
+        async function loadLocales() {
+            try {
+                const response = await fetch('locales.json');
+                locales = await response.json();
+                updateUILabels();
+            } catch (error) {
+                console.error('Error loading locales:', error);
+            }
+        }
+
+        /**
+         * Updates all localized elements on the page.
+         */
+        function updateUILabels() {
+            const langData = locales[currentLang];
+            if (!langData) return;
+
+            // Update navigation
+            document.getElementById('nav_tule_mukaan').textContent = langData.nav_tule_mukaan;
+            document.getElementById('nav_lajikuvaukset').textContent = langData.nav_lajikuvaukset;
+            document.getElementById('nav_junioritoiminta').textContent = langData.nav_junioritoiminta;
+            document.getElementById('nav_harjoitusajat').textContent = langData.nav_harjoitusajat;
+            document.getElementById('nav_hinnasto').textContent = langData.nav_hinnasto;
+            document.getElementById('tagline').textContent = langData.tagline;
+
+            // Update footer
+            document.getElementById('footer_contact').textContent = langData.footer_contact;
+            document.getElementById('footer_social').textContent = langData.footer_social;
+            document.getElementById('footer_myclub').textContent = langData.footer_myclub;
+            document.getElementById('footer_copyright').innerHTML = langData.footer_copyright;
+
+            // Update switcher text
+            document.getElementById('current-lang-text').textContent = currentLang.toUpperCase();
+            document.documentElement.lang = currentLang;
+        }
+
+        /**
+         * Switches the language and reloads content.
+         */
+        function switchLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem('lang', lang);
+            updateUILabels();
+            loadPage();
+        }
+
+        /**
+         * Loads and renders a Markdown file based on the current language and URL hash.
          */
         async function loadPage() {
-            // Determine the page name from the hash (default to 'home')
             let hash = window.location.hash.substring(1) || 'home';
-            
-            // Map the hash to the corresponding Markdown file in the /pages/ directory
-            const filePath = `pages/${hash}.md`;
+            const filePath = `pages/${currentLang}/${hash}.md`;
             const contentDiv = document.getElementById('content');
 
             try {
                 const response = await fetch(filePath);
                 if (!response.ok) {
-                    throw new Error(`Sivua "${hash}" ei löytynyt.`);
+                    throw new Error(`Page not found: ${filePath}`);
                 }
                 const markdown = await response.text();
-                
-                // Parse markdown to HTML
                 const html = marked.parse(markdown);
                 contentDiv.innerHTML = html;
 
-                // Update page title and navigation active state
-                updateUI(hash);
-                
-                // Scroll to top of the page
+                updateNavigationActiveState(hash);
                 window.scrollTo(0, 0);
 
             } catch (error) {
                 console.error('Error loading page:', error);
-                contentDiv.innerHTML = `<h1>Virhe</h1><p>Sivua "${hash}" ei voitu ladata. Palataan <a href="#home">kotisivulle</a>.</p>`;
+                contentDiv.innerHTML = `<h1>Error</h1><p>The requested page could not be loaded.</p>`;
             }
         }
 
-        /**
-         * Updates the page title and highlights the active navigation link.
-         */
-        function updateUI(hash) {
-            // Highlight the active link
+        function updateNavigationActiveState(hash) {
             const links = document.querySelectorAll('.nav-links a');
             links.forEach(link => {
                 if (link.getAttribute('href') === `#${hash}`) {
                     link.classList.add('active');
-                    // Update document title based on the active link text
-                    document.title = `Takado - ${link.textContent}`;
                 } else {
                     link.classList.remove('active');
                 }
             });
         }
 
-        // Listen for hash changes to navigate without reload
         window.addEventListener('hashchange', loadPage);
 
-        // Load the initial page on startup
-        window.addEventListener('load', loadPage);
+        window.addEventListener('load', async () => {
+            await loadLocales();
+            loadPage();
+        });
     </script>
 </body>
 </html>
