@@ -13,28 +13,33 @@
 <body>
     <header class="top-nav">
         <nav>
-            <ul class="nav-links">
-                <li>
-                    <a href="#home" class="nav-logo">
-                        <img src="images/cropped-takado-logo.png" alt="Takado Logo">
-                        <span class="nav-tagline" id="tagline"></span>
-                    </a>
-                </li>
-                <li><a href="#tule-mukaan" id="nav_tule_mukaan"></a></li>
-                <li><a href="#lajikuvaukset" id="nav_lajikuvaukset"></a></li>
-                <li><a href="#junioritoiminta" id="nav_junioritoiminta"></a></li>
-                <li><a href="#harjoitusajat" id="nav_harjoitusajat"></a></li>
-                <li><a href="#hinnasto" id="nav_hinnasto"></a></li>
-                <li class="lang-switcher">
-                    <div class="dropdown">
-                        <button class="dropbtn" id="lang-btn"><i class="fa-solid fa-globe"></i> <span id="current-lang-text">FI</span> <i class="fa-solid fa-caret-down"></i></button>
-                        <div class="dropdown-content">
-                            <a href="javascript:void(0)" onclick="switchLanguage('fi')">Suomi</a>
-                            <a href="javascript:void(0)" onclick="switchLanguage('en')">English</a>
+            <div class="nav-container">
+                <a href="#home" class="nav-logo">
+                    <img src="images/cropped-takado-logo.png" alt="Takado Logo">
+                    <span class="nav-tagline" id="tagline"></span>
+                </a>
+                
+                <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <ul class="nav-links" id="nav-menu">
+                    <li><a href="#tule-mukaan" id="nav_tule_mukaan"></a></li>
+                    <li><a href="#lajikuvaukset" id="nav_lajikuvaukset"></a></li>
+                    <li><a href="#junioritoiminta" id="nav_junioritoiminta"></a></li>
+                    <li><a href="#harjoitusajat" id="nav_harjoitusajat"></a></li>
+                    <li><a href="#hinnasto" id="nav_hinnasto"></a></li>
+                    <li class="lang-switcher">
+                        <div class="dropdown">
+                            <button class="dropbtn" id="lang-btn"><i class="fa-solid fa-globe"></i> <span id="current-lang-text">FI</span> <i class="fa-solid fa-caret-down"></i></button>
+                            <div class="dropdown-content">
+                                <a href="javascript:void(0)" onclick="switchLanguage('fi')">Suomi</a>
+                                <a href="javascript:void(0)" onclick="switchLanguage('en')">English</a>
+                            </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
@@ -173,6 +178,21 @@
         window.addEventListener('load', async () => {
             await loadLocales();
             loadPage();
+
+            // Hamburger menu toggle logic
+            const hamburgerBtn = document.getElementById('hamburger-btn');
+            const navMenu = document.getElementById('nav-menu');
+
+            hamburgerBtn.addEventListener('click', () => {
+                navMenu.classList.toggle('show');
+            });
+
+            // Close menu when a link is clicked (on mobile)
+            navMenu.addEventListener('click', (e) => {
+                if (e.target.tagName === 'A') {
+                    navMenu.classList.remove('show');
+                }
+            });
         });
     </script>
 </body>
