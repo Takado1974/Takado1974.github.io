@@ -142,17 +142,15 @@
         async function loadPage() {
             let hash = window.location.hash.substring(1) || 'home';
             
-            // If the hash contains a sub-section (e.g., #lajikuvaukset#bjj), 
-            // or if we're already on the page and just clicking a sub-link:
+            // Handle sub-sections (e.g., #lajikuvaukset#bjj)
             const parts = hash.split('#');
-            const pageName = parts[0];
+            const pageName = parts[0] || 'home';
             const subSection = parts[1];
 
             const filePath = `pages/${currentLang}/${pageName}.md`;
             const contentDiv = document.getElementById('content');
 
-            // Check if we actually need to fetch a new file
-            // We store the current page name on the content div to avoid redundant fetches
+            // Fetch and render the page content if it's not already loaded
             if (contentDiv.dataset.currentPage !== pageName) {
                 try {
                     const response = await fetch(filePath);
@@ -160,28 +158,35 @@
                         throw new Error(`Page not found: ${filePath}`);
                     }
                     const markdown = await response.text();
-                    const html = marked.parse(markdown);
-                    contentDiv.innerHTML = html;
+                    
+                    // Render markdown
+                    contentDiv.innerHTML = marked.parse(markdown);
                     contentDiv.dataset.currentPage = pageName;
 
                     updateNavigationActiveState(pageName);
                     
-                    // If there was a sub-section, scroll to it after content is loaded
+                    // Scroll to sub-section or top
                     if (subSection) {
-                        const target = document.getElementById(subSection);
-                        if (target) target.scrollIntoView();
+                        setTimeout(() => {
+                            const target = document.getElementById(subSection);
+                            if (target) {
+                                target.scrollIntoView({ behavior: 'smooth' });
+                            }
+                        }, 100);
                     } else {
                         window.scrollTo(0, 0);
                     }
 
                 } catch (error) {
                     console.error('Error loading page:', error);
-                    contentDiv.innerHTML = `<h1>Error</h1><p>The requested page could not be loaded.</p>`;
+                    contentDiv.innerHTML = `<h1>Virhe</h1><p>Sivua ei voitu ladata. Palataan <a href="#home">kotisivulle</a>.</p>`;
                 }
             } else if (subSection) {
                 // If already on the page, just scroll to the sub-section
                 const target = document.getElementById(subSection);
-                if (target) target.scrollIntoView();
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
             }
         }
 
