@@ -34,10 +34,21 @@ body {
     display: flex;
     flex-wrap: wrap; /* Allow links to wrap on smaller screens */
     justify-content: center;
+    align-items: center; /* Center-align text and logo vertically */
 }
 
 .nav-links li {
     padding: 0 1rem;
+}
+
+.nav-logo img {
+    height: 40px; /* Adjust height as needed */
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.nav-logo:hover img {
+    transform: scale(1.05);
 }
 
 .nav-links a {
