@@ -277,6 +277,37 @@ main#content img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Sub-navigation Styling (Similar to footer) */
+.sub-nav {
+    background-color: #333;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.sub-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.sub-nav a i {
+    margin-right: 8px;
+    font-size: 0.8rem;
+    color: inherit;
+}
+
+.sub-nav a:hover {
+    color: #f39c12;
+}
+
 /* Ensure images are larger on mobile for readability */
 @media (max-width: 768px) {
     main#content img {
