@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Takado1974 - Home</title>
+    <title>Takado - Tervetuloa</title>
     <link rel="stylesheet" href="style.css">
     <!-- Include marked.js from CDN -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -12,55 +12,82 @@
     <header class="top-nav">
         <nav>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about-me">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home">Koti</a></li>
+                <li><a href="#tule-mukaan">Tule mukaan</a></li>
+                <li><a href="#lajikuvaukset">Lajikuvaukset</a></li>
+                <li><a href="#junioritoiminta">Junioritoiminta</a></li>
+                <li><a href="#harjoitusajat">Harjoitusajat</a></li>
+                <li><a href="#hinnasto">Hinnasto</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main content container where Markdown will be injected -->
     <main id="content">
-        <p>Loading content...</p>
+        <p>Ladataan sisältöä...</p>
     </main>
 
     <footer>
-        <p>&copy; 2024 Takado1974. All rights reserved.</p>
+        <p>&copy; 2026 Takado. Kaikki oikeudet pidätetään.</p>
     </footer>
 
     <script>
-        // Fetch the content.md file
-        fetch('content.md')
-            .then(response => {
+        /**
+         * Loads and renders a Markdown file based on the URL hash.
+         */
+        async function loadPage() {
+            // Determine the page name from the hash (default to 'home')
+            let hash = window.location.hash.substring(1) || 'home';
+            
+            // Map the hash to the corresponding Markdown file in the /pages/ directory
+            const filePath = `pages/${hash}.md`;
+            const contentDiv = document.getElementById('content');
+
+            try {
+                const response = await fetch(filePath);
                 if (!response.ok) {
-                    throw new Error('Network response was not ok: ' + response.statusText);
+                    throw new Error(`Sivua "${hash}" ei löytynyt.`);
                 }
-                return response.text();
-            })
-            .then(markdown => {
-                // Parse markdown into HTML using marked
+                const markdown = await response.text();
+                
+                // Parse markdown to HTML
                 const html = marked.parse(markdown);
-                // Inject the HTML into the #content element
-                document.getElementById('content').innerHTML = html;
+                contentDiv.innerHTML = html;
 
-                // Add IDs to headers based on their text for navigation
-                const headers = document.querySelectorAll('#content h2');
-                headers.forEach(header => {
-                    const id = header.textContent.toLowerCase().replace(/\s+/g, '-');
-                    header.id = id;
-                });
+                // Update page title and navigation active state
+                updateUI(hash);
+                
+                // Scroll to top of the page
+                window.scrollTo(0, 0);
 
-                // Set id for the top-level h1 for 'Home' link
-                const mainHeader = document.querySelector('#content h1');
-                if (mainHeader) {
-                    mainHeader.id = 'home';
+            } catch (error) {
+                console.error('Error loading page:', error);
+                contentDiv.innerHTML = `<h1>Virhe</h1><p>Sivua "${hash}" ei voitu ladata. Palataan <a href="#home">kotisivulle</a>.</p>`;
+            }
+        }
+
+        /**
+         * Updates the page title and highlights the active navigation link.
+         */
+        function updateUI(hash) {
+            // Highlight the active link
+            const links = document.querySelectorAll('.nav-links a');
+            links.forEach(link => {
+                if (link.getAttribute('href') === `#${hash}`) {
+                    link.classList.add('active');
+                    // Update document title based on the active link text
+                    document.title = `Takado - ${link.textContent}`;
+                } else {
+                    link.classList.remove('active');
                 }
-            })
-            .catch(error => {
-                console.error('Error fetching or parsing content.md:', error);
-                document.getElementById('content').innerHTML = '<p>Error loading content. Please try again later.</p>';
             });
+        }
+
+        // Listen for hash changes to navigate without reload
+        window.addEventListener('hashchange', loadPage);
+
+        // Load the initial page on startup
+        window.addEventListener('load', loadPage);
     </script>
 </body>
 </html>
