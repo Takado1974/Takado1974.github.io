@@ -274,6 +274,40 @@ main#content li {
     margin-bottom: 0.5rem;
 }
 
+/* Table Styling */
+main#content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 0.95rem;
+    overflow-x: auto;
+    display: block; /* Allows horizontal scroll on small screens */
+}
+
+main#content th, main#content td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    min-width: 120px;
+    vertical-align: top;
+}
+
+main#content th {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+main#content tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+main#content td br {
+    margin-bottom: 4px;
+}
+
 main#content img {
     max-width: 50%; /* Reduce size to 50% */
     height: auto;
