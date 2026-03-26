@@ -4,22 +4,22 @@
 * 30€ / calendar year
 
 #### BJJ Adults:
-* Basic Course (3 months) 120 EUR (20% student discount)
-* One Year (365 days) 580 EUR
-* 6 Months (180 days) 320 EUR
-* 1 Month (30 days) 60 EUR
-* 10-Session Pass 80 EUR
+* Basic Course (3 months) 120 € (20% student discount)
+* One Year (365 days) 580 €
+* 6 Months (180 days) 320 €
+* 1 Month (30 days) 60 €
+* 10-Session Pass 80 €
 
 #### BJJ Juniors and Youth:
-* Autumn or Spring Season (Koalas) 110 EUR
-* Autumn or Spring Season (Pandas and Youth) 150 EUR
-* Parent-Child Group 50 EUR / Spring or Autumn Season (Included in the training fee for practitioners who have a valid 1-year or 6-month training fee for any Takado discipline).
+* Autumn or Spring Season (Koalas) 110 €
+* Autumn or Spring Season (Pandas and Youth) 150 €
+* Parent-Child Group 50 € / Spring or Autumn Season (Included in the training fee for practitioners who have a valid 1-year or 6-month training fee for any Takado discipline).
 
 #### EJJ and Escrima:
-* One Year (365 days) 290 EUR
-* 6 Months (180 days) 160 EUR
-* 1 Month (30 days) 30 EUR
-* 10-Session Pass 80 EUR
+* One Year (365 days) 290 €
+* 6 Months (180 days) 160 €
+* 1 Month (30 days) 30 €
+* 10-Session Pass 80 €
 
 Everyone training at Takado must pay the annual membership fee.
 

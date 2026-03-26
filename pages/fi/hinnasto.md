@@ -10,28 +10,28 @@
 
 #### BJJ aikuiset:
 
-* Peruskurssi 3 kk 120 EUR (20 % alennus opiskelijoille)
-* Vuosi (365 pv) 580 EUR
-* 6 kk (180 pv) 320 EUR
-* 1 kk (30 pv) 60 EUR
-* 10 kertaa 80 EUR
+* Peruskurssi 3 kk 120 € (20 % alennus opiskelijoille)
+* Vuosi (365 pv) 580 €
+* 6 kk (180 pv) 320 €
+* 1 kk (30 pv) 60 €
+* 10 kertaa 80 €
 
 
 
 #### BJJ juniorit ja nuoret:
 
-* Syksy- tai kevätkausi  koalat 110 EUR
-* Syksy- tai kevätkausi pandat ja nuoret 150 EUR
-* Lapsi-vanhempi ryhmä 50 EUR/ kevät- tai syyskausi (Sisältyy harrastusmaksuun niille harrastajille, joilla 1v tai 6kk voimassaoleva harrastusmaksu johonkin Takadon lajiin).
+* Syksy- tai kevätkausi  koalat 110 €
+* Syksy- tai kevätkausi pandat ja nuoret 150 €
+* Lapsi-vanhempi ryhmä 50 €/ kevät- tai syyskausi (Sisältyy harrastusmaksuun niille harrastajille, joilla 1v tai 6kk voimassaoleva harrastusmaksu johonkin Takadon lajiin).
 
 
 
 #### EJJ ja Escrima: 
 
-* Vuosi (365 pv) 290 EUR
-* 6 kk (180 pv) 160 EUR
-* 1 kk (30 pv) 30 EUR
-* 10 kertaa 80 EUR
+* Vuosi (365 pv) 290 €
+* 6 kk (180 pv) 160 €
+* 1 kk (30 pv) 30 €
+* 10 kertaa 80 €
 
 
 
