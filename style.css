@@ -312,7 +312,9 @@ main#content tr:nth-child(even) {
 }
 
 main#content td br {
-    margin-bottom: 4px;
+    display: block;
+    content: "";
+    margin-top: 8px; /* Increased spacing between lines */
 }
 
 main#content img {
