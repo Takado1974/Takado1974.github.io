@@ -279,16 +279,16 @@ main#content table {
     width: 100%;
     border-collapse: collapse;
     margin: 2rem 0;
-    font-size: 0.95rem;
+    font-size: 0.82rem; /* Reduced base font size for tables */
     overflow-x: auto;
     display: block; /* Allows horizontal scroll on small screens */
 }
 
 main#content th, main#content td {
     border: 2px solid #eee; /* More distinct border */
-    padding: 12px;
+    padding: 10px 8px; /* Slightly tighter padding */
     text-align: left;
-    min-width: 120px;
+    min-width: 130px; /* Slightly wider to help fit text */
     vertical-align: top;
     transition: background-color 0.2s ease, border-color 0.2s ease;
 }
@@ -303,7 +303,7 @@ main#content th {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 0.85rem;
+    font-size: 0.75rem; /* Reduced header font size */
     border-color: #444;
 }
 
@@ -312,7 +312,8 @@ main#content tr:nth-child(even) {
 }
 
 .cell-line {
-    margin-bottom: 8px; /* Consistent spacing between lines */
+    margin-bottom: 6px; /* Slightly tighter line spacing */
+    line-height: 1.2;
 }
 
 .cell-line:last-child {
