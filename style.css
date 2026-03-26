@@ -314,7 +314,7 @@ main#content tr:nth-child(even) {
 main#content td br {
     display: block;
     content: "";
-    margin-top: 8px; /* Increased spacing between lines */
+    margin-bottom: 10px; /* More reliable spacing across browsers */
 }
 
 main#content img {
