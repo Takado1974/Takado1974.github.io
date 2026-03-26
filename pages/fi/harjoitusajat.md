@@ -2,12 +2,6 @@
 
 Täältä löydät voimassa olevat harjoitusaikataulut eri lajeillemme.
 
-<div class="sub-nav">
-    <a href="#harjoitusajat#bjj"><i class="fa-solid fa-chevron-right"></i> Brasilialainen jujutsu (BJJ)</a>
-    <a href="#harjoitusajat#ejj"><i class="fa-solid fa-chevron-right"></i> Eurooppalainen jujutsu</a>
-    <a href="#harjoitusajat#escrima"><i class="fa-solid fa-chevron-right"></i> Escrima</a>
-</div>
-
 <h2 id="bjj">Brasilialainen jujutsu (BJJ)</h2>
 
 | Maanantai | Tiistai | Keskiviikko | Torstai | Perjantai | Lauantai | Sunnuntai |

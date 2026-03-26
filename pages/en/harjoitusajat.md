@@ -2,12 +2,6 @@
 
 Here you can find the current training schedules for our various disciplines.
 
-<div class="sub-nav">
-    <a href="#harjoitusajat#bjj"><i class="fa-solid fa-chevron-right"></i> Brazilian Jiu-Jitsu (BJJ)</a>
-    <a href="#harjoitusajat#ejj"><i class="fa-solid fa-chevron-right"></i> European Jujutsu</a>
-    <a href="#harjoitusajat#escrima"><i class="fa-solid fa-chevron-right"></i> Escrima</a>
-</div>
-
 <h2 id="bjj">Brazilian Jiu-Jitsu (BJJ)</h2>
 
 | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
