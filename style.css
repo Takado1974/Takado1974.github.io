@@ -311,10 +311,12 @@ main#content tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-main#content td br {
-    display: block;
-    content: "";
-    margin-bottom: 10px; /* More reliable spacing across browsers */
+.cell-line {
+    margin-bottom: 8px; /* Consistent spacing between lines */
+}
+
+.cell-line:last-child {
+    margin-bottom: 0;
 }
 
 main#content img {

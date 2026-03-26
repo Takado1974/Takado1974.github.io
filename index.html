@@ -166,6 +166,14 @@
                     contentDiv.dataset.currentPage = pageName;
                     contentDiv.dataset.currentLang = currentLang;
 
+                    // Post-process table cells to wrap lines in divs for better spacing
+                    contentDiv.querySelectorAll('td').forEach(cell => {
+                        if (cell.innerHTML.includes('<br>')) {
+                            const lines = cell.innerHTML.split(/<br\s*\/?>/i);
+                            cell.innerHTML = lines.map(line => `<div class="cell-line">${line.trim()}</div>`).join('');
+                        }
+                    });
+
                     updateNavigationActiveState(pageName);
                     
                     // Scroll to sub-section or top
