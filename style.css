@@ -150,12 +150,11 @@ body {
     z-index: 1001;
     border-radius: 4px;
     overflow: hidden;
-    margin-top: 10px; /* Space between button and content */
+    margin-top: 10px;
     transform: translateY(10px);
     transition: all 0.3s ease;
 }
 
-/* Add a bridge to prevent the menu from disappearing when moving from button to content */
 .dropdown-content::before {
     content: '';
     position: absolute;
@@ -243,7 +242,7 @@ body {
     line-height: 1.4;
 }
 
-/* Main Content (Markdown Container) Styling */
+/* Main Content Styling */
 main#content {
     flex: 1;
     max-width: none;
@@ -255,7 +254,7 @@ main#content {
     min-height: 60vh;
 }
 
-/* Style Markdown-generated headers */
+/* Headers */
 main#content h1 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
@@ -299,6 +298,7 @@ main#content h6 {
     text-transform: uppercase;
 }
 
+/* Paragraphs and Lists */
 main#content p {
     margin-bottom: 1rem;
     color: #555;
@@ -307,43 +307,42 @@ main#content p {
 
 main#content ul {
     margin-bottom: 1rem;
-    .media-quote blockquote {
-        margin: 0 !important;
-        max-width: 100% !important;
-        padding: 2.5rem 1.5rem 1.5rem 1.5rem !important; /* Extra top padding for the icon */
-    }
-
-    /* Quote Styling - Global content quotes */
-    main#content blockquote {
-        margin: 3rem auto;
-        padding: 2.5rem 2rem 2rem 2rem;
-        background-color: #f9f9f9;
-        border-left: 5px solid #f39c12;
-        border-radius: 0 8px 8px 0;
-        font-style: italic;
-        font-size: 1.2rem;
-        color: #444;
-        text-align: center;
-        position: relative;
-        max-width: 80%;
-        line-height: 1.6;
-    }
-
-    main#content blockquote::before {
-        content: "\f10d"; /* Font Awesome quote-left */
-        font-family: "Font Awesome 6 Free";
-        font-weight: 900;
-        position: absolute;
-        top: -10px;
-        left: 20px;
-        font-size: 1.8rem;
-        color: #f39c12;
-        background: #f9f9f9; /* Match blockquote bg */
-        padding: 0 8px;
-    }
+    padding-left: 2rem;
+    color: #555;
+    font-size: 1.1rem;
+}
 
 main#content li {
     margin-bottom: 0.5rem;
+}
+
+/* Global Content Quote Styling */
+main#content blockquote {
+    margin: 3rem auto;
+    padding: 2.5rem 2rem 2rem 2rem;
+    background-color: #f9f9f9;
+    border-left: 5px solid #f39c12;
+    border-radius: 0 8px 8px 0;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #444;
+    text-align: center;
+    position: relative;
+    max-width: 80%;
+    line-height: 1.6;
+}
+
+main#content blockquote::before {
+    content: "\f10d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 1.8rem;
+    color: #f39c12;
+    background: #f9f9f9;
+    padding: 0 8px;
 }
 
 /* Table Styling */
@@ -394,6 +393,7 @@ main#content tr:nth-child(even) {
     font-size: 0.78rem;
 }
 
+/* General Image Styling */
 main#content img {
     max-width: 50%;
     height: auto;
@@ -404,10 +404,42 @@ main#content img {
 }
 
 main#content img.full-width {
-    max-width: 100%;
+    max-width: 100% !important;
 }
 
-/* Sub-navigation Styling (Similar to footer) */
+/* Media + Quote Side-by-Side */
+.media-quote {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+}
+
+.media-quote .media-part {
+    flex: 1 1 300px;
+    max-width: 50%;
+}
+
+.media-quote .quote-part {
+    flex: 1 1 300px;
+}
+
+main#content .media-quote img {
+    width: 100%;
+    max-width: 100% !important; /* Image fills its 50% container */
+    margin: 0;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.media-quote blockquote {
+    margin: 0 !important;
+    max-width: 100% !important;
+    padding: 2.5rem 1.5rem 1.5rem 1.5rem !important;
+}
+
+/* Sub-navigation Styling */
 .sub-nav {
     background-color: #333;
     padding: 1.5rem;
@@ -436,50 +468,6 @@ main#content img.full-width {
 
 .sub-nav a:hover {
     color: #f39c12;
-}
-
-/* Ensure images are larger on mobile for readability */
-@media (max-width: 768px) {
-    main#content img {
-        max-width: 80%;
-    }
-}
-
-/* Media + Quote Styling */
-.media-quote {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin: 3rem 0;
-    flex-wrap: wrap;
-}
-
-.media-quote .media-part {
-    flex: 1 1 300px;
-    max-width: 50%;
-}
-
-.media-quote .quote-part {
-    flex: 1 1 300px;
-}
-
-main#content .media-quote img {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
-}
-
-.media-quote blockquote {
-    margin: 0 !important;
-    max-width: 100% !important;
-}
-
-@media (max-width: 768px) {
-    .media-quote .media-part {
-        max-width: 100%;
-    }
 }
 
 /* Instructor Grid */
@@ -513,7 +501,7 @@ main#content .instructor-card img {
     margin: 0;
     border-radius: 0;
     box-shadow: none;
-    max-width: 100%;
+    max-width: 100% !important;
 }
 
 .instructor-info {
@@ -551,6 +539,7 @@ main#content .instructor-card img {
     line-height: 1.4;
 }
 
+/* Footer Styling */
 .main-footer {
     background-color: #333;
     color: #fff;
@@ -596,7 +585,7 @@ main#content .instructor-card img {
     color: #f39c12;
 }
 
-/* Basic responsive design */
+/* Responsive Design */
 @media (max-width: 900px) {
     .main-wrapper {
         flex-direction: column;
@@ -619,7 +608,7 @@ main#content .instructor-card img {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px; /* Exact height matching min-height */
+        top: 60px;
         left: 0;
         width: 100%;
         background-color: #333;
@@ -659,5 +648,13 @@ main#content .instructor-card img {
 
     .main-wrapper {
         margin-top: 80px;
+    }
+
+    main#content img {
+        max-width: 80%;
+    }
+
+    .media-quote .media-part {
+        max-width: 100%;
     }
 }
