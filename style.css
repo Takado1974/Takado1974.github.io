@@ -307,38 +307,40 @@ main#content p {
 
 main#content ul {
     margin-bottom: 1rem;
-    padding-left: 2rem;
-    color: #555;
-    font-size: 1.1rem;
-}
+    .media-quote blockquote {
+        margin: 0 !important;
+        max-width: 100% !important;
+        padding: 2.5rem 1.5rem 1.5rem 1.5rem !important; /* Extra top padding for the icon */
+    }
 
-/* Quote Styling */
-main#content blockquote {
-    margin: 3rem auto;
-    padding: 2rem;
-    background-color: #f9f9f9;
-    border-left: 5px solid #f39c12;
-    border-radius: 0 8px 8px 0;
-    font-style: italic;
-    font-size: 1.3rem;
-    color: #444;
-    text-align: center;
-    position: relative;
-    max-width: 80%;
-}
+    /* Quote Styling - Global content quotes */
+    main#content blockquote {
+        margin: 3rem auto;
+        padding: 2.5rem 2rem 2rem 2rem;
+        background-color: #f9f9f9;
+        border-left: 5px solid #f39c12;
+        border-radius: 0 8px 8px 0;
+        font-style: italic;
+        font-size: 1.2rem;
+        color: #444;
+        text-align: center;
+        position: relative;
+        max-width: 80%;
+        line-height: 1.6;
+    }
 
-main#content blockquote::before {
-    content: "\f10d"; /* Font Awesome quote-left */
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
-    position: absolute;
-    top: -15px;
-    left: 20px;
-    font-size: 2rem;
-    color: #f39c12;
-    background: #fff;
-    padding: 0 10px;
-}
+    main#content blockquote::before {
+        content: "\f10d"; /* Font Awesome quote-left */
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        position: absolute;
+        top: -10px;
+        left: 20px;
+        font-size: 1.8rem;
+        color: #f39c12;
+        background: #f9f9f9; /* Match blockquote bg */
+        padding: 0 8px;
+    }
 
 main#content li {
     margin-bottom: 0.5rem;
