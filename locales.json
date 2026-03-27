@@ -10,7 +10,9 @@
         "news_header": "Uutiset",
         "footer_contact": "Ota yhteyttä",
         "footer_social": "Löydät meidät myös",
-        "footer_myclub": "myClub"
+        "footer_myclub": "myClub",
+        "footer_important": "Tärkeää tietoa",
+        "footer_rules": "Salin säännöt"
     },
     "en": {
         "nav_tule_mukaan": "Join us",
@@ -23,6 +25,8 @@
         "news_header": "News",
         "footer_contact": "Contact us",
         "footer_social": "Find us also on",
-        "footer_myclub": "myClub"
+        "footer_myclub": "myClub",
+        "footer_important": "Important information",
+        "footer_rules": "Gym rules"
     }
 }
