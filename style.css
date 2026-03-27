@@ -255,6 +255,32 @@ main#content h2 {
     color: #333;
     border-bottom: 2px solid #eee;
     padding-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+main#content h3 {
+    margin: 2rem 0 1rem 0;
+    color: #333;
+    font-size: 1.5rem;
+}
+
+main#content h4 {
+    margin: 1.5rem 0 0.8rem 0;
+    color: #333;
+    font-size: 1.3rem;
+}
+
+main#content h5 {
+    margin: 1.2rem 0 0.6rem 0;
+    color: #333;
+    font-size: 1.15rem;
+}
+
+main#content h6 {
+    margin: 1rem 0 0.5rem 0;
+    color: #333;
+    font-size: 1.1rem;
+    text-transform: uppercase;
 }
 
 main#content p {
