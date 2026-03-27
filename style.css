@@ -443,6 +443,43 @@ main#content img.full-width {
     }
 }
 
+/* Media + Quote Styling */
+.media-quote {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+}
+
+.media-quote .media-part {
+    flex: 1 1 300px;
+    max-width: 50%;
+}
+
+.media-quote .quote-part {
+    flex: 1 1 300px;
+}
+
+main#content .media-quote img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.media-quote blockquote {
+    margin: 0 !important;
+    max-width: 100% !important;
+}
+
+@media (max-width: 768px) {
+    .media-quote .media-part {
+        max-width: 100%;
+    }
+}
+
 /* Instructor Grid */
 .instructor-grid {
     display: grid;
