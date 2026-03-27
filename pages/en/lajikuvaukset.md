@@ -86,4 +86,4 @@ Because we do not focus on techniques alone, we also do not have graduations or 
 
 As it is a combat discipline, we practice a wide variety of situations. These can include multiple opponents, various weapons (sticks, knives, swords, axes, or anything suitable as a weapon), or combinations of these.
 
-"A journey of a million kilometers begins with a single step."
+> "A journey of a million kilometers begins with a single step."

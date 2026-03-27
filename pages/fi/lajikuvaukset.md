@@ -90,4 +90,4 @@ Koska emme keskity tekniikoihin, ei meillä ole myöskään graduointeja tai vy�
 
 Koska kyseessä on taistelulaji, harjoittelemme mahdollisimman monipuolisia tilanteita. Tilanteita voi olla esim. useammat vastustajat, erilaiset aseet (kepit, veitset, miekat, kirveet, tai mikä tahansa aseeksi kelpaava) tai näiden yhdistelmät.
 
-Miljoonan kilometrin taival alkaa yhdellä askeleella
+> "Miljoonan kilometrin taival alkaa yhdellä askeleella"
