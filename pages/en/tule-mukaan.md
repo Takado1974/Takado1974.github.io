@@ -1,5 +1,7 @@
 # Join us
 
+![Join us](images/tulemukaan.jpeg)
+
 Are you an experienced martial artist or are you looking for a new hobby for yourself or your child? Join us at Takado!
 
 With us, you can train in Brazilian Jiu-Jitsu, European Jujutsu, Escrima, and Kyudo in a traditional martial arts club, in a relaxed and cheerful atmosphere. Takado's gym is located in Espoo, Olari, with excellent transport links.
