@@ -1,6 +1,6 @@
 # Join us
 
-![Join us](images/tulemukaan.jpeg)
+<img src="images/tulemukaan.jpeg" alt="Join us" class="full-width">
 
 Are you an experienced martial artist or are you looking for a new hobby for yourself or your child? Join us at Takado!
 

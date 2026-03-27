@@ -1,6 +1,6 @@
 # Tule mukaan
 
-![Tule mukaan](images/tulemukaan.jpeg)
+<img src="images/tulemukaan.jpeg" alt="Tule mukaan" class="full-width">
 
 Oletko kokenut kamppailu-urheilun harrastaja vai etsitkö uutta harrastusta itsellesi tai lapsellesi? Tule mukaan Takadolle!
 

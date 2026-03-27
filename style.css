@@ -375,7 +375,6 @@ main#content tr:nth-child(even) {
     color: #888; /* Lighter color for Instructor name */
     font-size: 0.78rem; /* Slightly smaller for Instructor */
 }
-
 main#content img {
     max-width: 50%; /* Reduce size to 50% */
     height: auto;
@@ -385,6 +384,12 @@ main#content img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Allow overriding image width to 100% */
+main#content img.full-width {
+    max-width: 100%;
+}
+
+.cell-line {
 /* Sub-navigation Styling (Similar to footer) */
 .sub-nav {
     background-color: #333;
