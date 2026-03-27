@@ -29,6 +29,17 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 1rem;
+    position: relative; /* Base for version tag positioning */
+}
+
+.version-tag {
+    position: absolute;
+    top: -5px;
+    left: 1rem;
+    font-size: 0.65rem;
+    color: #666;
+    font-weight: normal;
+    pointer-events: none; /* Don't interfere with clicks */
 }
 
 .nav-links {
