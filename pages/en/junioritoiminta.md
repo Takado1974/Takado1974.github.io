@@ -4,7 +4,7 @@
 
 All groups have room for new practitioners. Welcome to get to know the discipline and the instructors!
 
-Juniors train at Takado in three different age groups: Koalas (ages 6-9), Pandas (ages 10-12), and Youth (ages 13-15). Information about the content and goals of the training can be found further down the page. Support can also be applied for regarding the junior activity training fees. Junior training is guided by shared values and operating principles to which everyone commits. Before the actual junior groups, children can start getting to know the discipline in the Family Jiu-Jitsu group.
+Juniors train at Takado in three different age groups: Koalas (ages 6-9), Pandas (10-12), and Youth (13-15). Information about the content and goals of the training can be found further down the page. Support can also be applied for regarding the junior activity training fees. Junior training is guided by shared values and operating principles to which everyone commits. Before the actual junior groups, children can start getting to know the discipline in the Family Jiu-Jitsu group.
 
 #### Important Values for Us:
 
@@ -23,7 +23,8 @@ Juniors train at Takado in three different age groups: Koalas (ages 6-9), Pandas
         <img src="images/junnut_1.jpg" alt="Junior activities 1">
     </div>
     <div class="quote-part">
-        <blockquote>"Practicing martial arts develops a child's and youth's self-esteem, coordination, and respect for others."</blockquote>
+        <blockquote>"It's fun to train at Takado because the gym has a great atmosphere, which makes training enjoyable and fun. The good atmosphere has helped me find the courage to participate in competitions. Training sessions are fun and I've made new friends. The coaches are supportive and skilled.
+Patrick, training at Takado for 2.5 years"</blockquote>
     </div>
 </div>
 
@@ -58,6 +59,7 @@ Learning is measured at the end of the autumn and spring seasons in belt tests. 
         <img src="images/junnut_2.jpg" alt="Junior activities 2">
     </div>
     <div class="quote-part">
-        <blockquote>"At Takado, juniors learn important life skills under the guidance of experienced instructors."</blockquote>
+        <blockquote>"Training at Takado is cool and fun. The technique is interesting. You get to meet new people and friends. The team spirit of the group has developed a lot and everyone usually feels good. The coaches are supportive and active. I have learned a lot over the years. I always think of jiu jitsu as my superpower that no one can take away from me. It motivates me year after year to train. You learn something new in every training session!
+Renata, training at Takado for 5 years"</blockquote>
     </div>
 </div>

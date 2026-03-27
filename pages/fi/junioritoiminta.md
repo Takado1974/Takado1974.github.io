@@ -23,7 +23,8 @@ Juniorit harjoittelevat Takadolla kolmessa eri ikäryhmässä: koalat (6-9v.), p
         <img src="images/junnut_1.jpg" alt="Junioritoiminta 1">
     </div>
     <div class="quote-part">
-        <blockquote>"Kamppailulajien harrastaminen kehittää lapsen ja nuoren itsetuntoa, koordinaatiota ja muiden kunnioittamista."</blockquote>
+        <blockquote>"Takadolla on kiva harjoitella, koska salilla on hyvä ilmapiiri, mikä tekee harjoittelun kivaksi ja hauskaksi. Hyvä ilmapiiri on auttanut uskaltamaan osallistumaan kisoihin. Treeneissä on hauskaa ja olen saanut uusia kavereita. Valmentajat on kannustavia ja taitavia.
+Patrick, harjoitellut Takadolla 2,5 vuotta"</blockquote>
     </div>
 </div>
 
@@ -58,6 +59,7 @@ Oppimista mitataan syksyn ja kevään lopussa vyökokeissa. Lapsilla ja juniorei
         <img src="images/junnut_2.jpg" alt="Junioritoiminta 2">
     </div>
     <div class="quote-part">
-        <blockquote>"Takadossa juniorit oppivat tärkeitä elämäntaitoja kokeneiden ohjaajien opastuksella."</blockquote>
+        <blockquote>"Takadolla treenaaminen on siistiä ja hauskaa. Tekniikka on kiinnostavaa. Pääsee tutustumaan uusiin ihmisiin ja kavereihin. Ryhmän urheiluhenki on kehittynyt paljon ja kaikilla on yleensä hyvä olo. Valmentajat ovat kannustavia ja reippaita. Olen oppinut todella paljon vuosien varrelta. Mietin aina jiu jitsun olevan supevoimani, jota kukaan ei voi ottaa minulta pois. Se motivoi minua vuodesta toiseen treenamaan. Joka treeneistä oppii jotain uutta!
+Renata, harjoitellut Takadolla 5 vuotta"</blockquote>
     </div>
 </div>
