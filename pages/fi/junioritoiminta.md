@@ -23,7 +23,7 @@ Juniorit harjoittelevat Takadolla kolmessa eri ikäryhmässä: koalat (6-9v.), p
         <img src="images/junnut_1.jpg" alt="Junioritoiminta 1">
     </div>
     <div class="quote-part">
-        > "Kamppailulajien harrastaminen kehittää lapsen ja nuoren itsetuntoa, koordinaatiota ja muiden kunnioittamista."
+        <blockquote>"Kamppailulajien harrastaminen kehittää lapsen ja nuoren itsetuntoa, koordinaatiota ja muiden kunnioittamista."</blockquote>
     </div>
 </div>
 
@@ -58,6 +58,6 @@ Oppimista mitataan syksyn ja kevään lopussa vyökokeissa. Lapsilla ja juniorei
         <img src="images/junnut_2.jpg" alt="Junioritoiminta 2">
     </div>
     <div class="quote-part">
-        > "Takadossa juniorit oppivat tärkeitä elämäntaitoja kokeneiden ohjaajien opastuksella."
+        <blockquote>"Takadossa juniorit oppivat tärkeitä elämäntaitoja kokeneiden ohjaajien opastuksella."</blockquote>
     </div>
 </div>
