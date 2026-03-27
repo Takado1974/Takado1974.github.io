@@ -4,6 +4,7 @@ Here you can find the current training schedules for our various disciplines.
 
 <h2 id="bjj">Brazilian Jiu-Jitsu (BJJ)</h2>
 
+**Address**: Pihatörmä 1D 4th floor (Länsikeskus / Piispanportti)
 | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **16:30 - 18:00**<br>Body Maintenance BJJ<br>Peter S | **7:00 - 8:00**<br>BJJ<br>Antti | **10:00 - 11:30**<br>No-Gi<br>Tero |  **7:00 - 8:00**<br>No-Gi<br>Tero  | **7:00 - 8:00**<br>No-Gi<br>Tero | **11:00 - 13:00**<br>Open Mat<br>Arto | **11:30 - 13:00**<br>No-Gi<br>Oskari/Suvi |
@@ -14,16 +15,16 @@ Here you can find the current training schedules for our various disciplines.
 
 <h2 id="ejj">European Jujutsu</h2>
 
+**Address**: Pihatörmä 1D 4th floor (Länsikeskus / Piispanportti)
 | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| | **18:00 - 19:30**<br>EJJ Adults<br>Instructor D | | **18:30 - 20:00**<br>EJJ Adults<br>Instructor E | | | |
-| | | | | | | |
+| **19:30 - 21:00**<br>EJJ Advanced<br>Ville | | **19:30 - 21:00**<br>EJJ Basic Technique<br>Bengt/Miika | **19:30 - 21:00**<br>EJJ Advanced<br>Ville | | | **19:30 - 21:00**<br>EJJ Basic Technique<br>Ville |
 
 <h2 id="escrima">Escrima</h2>
 
+**Address**: Kannusilta (Kannusillanmäki), Kannusillankatu 4
 | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday | Sunday |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| | | | | **18:00 - 19:30**<br>Escrima<br>Instructor F | | **12:00 - 14:00**<br>Escrima<br>Instructor G |
-| | | | | | | |
+| **20:00 - 21:30**<br>Escrima<br>Kannusilta, judo hall 3 | | **19:00 - 20:30**<br>Escrima<br>Kannusilta, judo hall 2 | | | | |
 
 *Note: Schedules may change during holidays or special events.*
