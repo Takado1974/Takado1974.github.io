@@ -199,15 +199,90 @@ body {
     padding: 0 20px;
 }
 
-#news-sidebar {
+.sidebar-column {
     flex: 0 0 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+}
+
+#news-sidebar {
     background-color: #fff;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    height: fit-content;
-    position: sticky;
-    top: 100px;
+}
+
+#notifications-sidebar {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#notifications_header {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #f39c12;
+}
+
+.notif-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.notif-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.notif-title {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin-bottom: 0.3rem;
+}
+
+.notif-date {
+    display: block;
+    font-size: 0.82rem;
+    color: #999;
+    margin-bottom: 0.4rem;
+}
+
+.notif-body {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.4;
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+.notif-toggle-btn {
+    background: none;
+    border: none;
+    color: #f39c12;
+    cursor: pointer;
+    font-size: 0.88rem;
+    font-weight: bold;
+    padding: 0;
+    margin-top: 0.4rem;
+    display: block;
+}
+
+.notif-toggle-btn:hover {
+    text-decoration: underline;
+}
+
+.notif-message {
+    font-size: 0.9rem;
+    color: #888;
 }
 
 #news_header {
@@ -592,7 +667,7 @@ main#content .instructor-card img {
         margin-top: 80px;
     }
 
-    #news-sidebar {
+    .sidebar-column {
         flex: 1 0 auto;
         width: 100%;
         position: static;

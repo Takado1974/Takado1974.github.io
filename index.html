@@ -46,19 +46,26 @@
     </header>
 
     <div class="main-wrapper">
-        <aside id="news-sidebar">
-            <h3 id="news_header"></h3>
-            <div id="news-items">
-                <div class="news-item">
-                    <h4>Syksyn peruskurssit</h4>
-                    <p>Syksyn peruskurssit alkavat syyskuussa. Ilmoittaudu mukaan myClubissa!</p>
+        <div class="sidebar-column">
+            <aside id="news-sidebar">
+                <h3 id="news_header"></h3>
+                <div id="news-items">
+                    <div class="news-item">
+                        <h4>Syksyn peruskurssit</h4>
+                        <p>Syksyn peruskurssit alkavat syyskuussa. Ilmoittaudu mukaan myClubissa!</p>
+                    </div>
+                    <div class="news-item">
+                        <h4>Uudet tilat käytössä</h4>
+                        <p>Takadon uudet harjoitustilat Pihatörmässä ovat nyt virallisesti auki.</p>
+                    </div>
                 </div>
-                <div class="news-item">
-                    <h4>Uudet tilat käytössä</h4>
-                    <p>Takadon uudet harjoitustilat Pihatörmässä ovat nyt virallisesti auki.</p>
-                </div>
-            </div>
-        </aside>
+            </aside>
+
+            <aside id="notifications-sidebar">
+                <h3 id="notifications_header"></h3>
+                <div id="notifications-items"></div>
+            </aside>
+        </div>
 
         <!-- Main content container where Markdown will be injected -->
         <main id="content">
@@ -92,6 +99,76 @@
     <script>
         let currentLang = localStorage.getItem('lang') || 'fi';
         let locales = {};
+        let notificationsData = null;
+        const NOTIF_BODY_LIMIT = 200;
+
+        function escapeHtml(str) {
+            const div = document.createElement('div');
+            div.appendChild(document.createTextNode(String(str || '')));
+            return div.innerHTML;
+        }
+
+        function toggleNotification(index) {
+            const bodyEl = document.getElementById(`notif-body-${index}`);
+            const btnEl = document.getElementById(`notif-btn-${index}`);
+            if (!bodyEl || !btnEl || !notificationsData) return;
+            const langData = locales[currentLang];
+            const isExpanded = bodyEl.dataset.expanded === 'true';
+            const n = notificationsData[index];
+            if (isExpanded) {
+                bodyEl.textContent = n._truncated;
+                bodyEl.dataset.expanded = 'false';
+                btnEl.textContent = langData.notifications_read_more;
+            } else {
+                bodyEl.textContent = n.body || '';
+                bodyEl.dataset.expanded = 'true';
+                btnEl.textContent = langData.notifications_read_less;
+            }
+        }
+
+        function renderNotifications() {
+            const container = document.getElementById('notifications-items');
+            const langData = locales[currentLang];
+            if (!container || !langData) return;
+
+            if (!notificationsData || notificationsData.length === 0) {
+                container.innerHTML = `<p class="notif-message">${langData.notifications_empty}</p>`;
+                return;
+            }
+
+            container.innerHTML = notificationsData.map((n, i) => {
+                const body = n.body || '';
+                const isLong = body.length > NOTIF_BODY_LIMIT;
+                const truncated = isLong ? body.substring(0, NOTIF_BODY_LIMIT) + '…' : body;
+                n._truncated = truncated;
+                const btn = isLong
+                    ? `<button class="notif-toggle-btn" id="notif-btn-${i}" onclick="toggleNotification(${i})">${langData.notifications_read_more}</button>`
+                    : '';
+                return `
+                    <div class="notif-item">
+                        <h4 class="notif-title">${escapeHtml(n.title)}</h4>
+                        <span class="notif-date">${escapeHtml(n.date || n.created_at || '')}</span>
+                        <p class="notif-body" id="notif-body-${i}" data-expanded="false">${escapeHtml(truncated)}</p>
+                        ${btn}
+                    </div>`;
+            }).join('');
+        }
+
+        async function fetchNotifications() {
+            const container = document.getElementById('notifications-items');
+            const langData = locales[currentLang];
+            if (!container) return;
+            container.innerHTML = `<p class="notif-message">${langData ? langData.notifications_loading : 'Ladataan...'}</p>`;
+            try {
+                const response = await fetch('https://myclub-proxy.netlify.app/.netlify/functions/notifications');
+                if (!response.ok) throw new Error('fetch failed');
+                notificationsData = await response.json();
+                renderNotifications();
+            } catch (e) {
+                notificationsData = [];
+                container.innerHTML = `<p class="notif-message">${langData ? langData.notifications_error : 'Virhe.'}</p>`;
+            }
+        }
 
         /**
          * Loads the localization file and updates the UI labels.
@@ -122,6 +199,8 @@
             document.getElementById('nav_ohjaajat').textContent = langData.nav_ohjaajat;
             document.getElementById('tagline').textContent = langData.tagline;
             document.getElementById('news_header').textContent = langData.news_header;
+            document.getElementById('notifications_header').textContent = langData.notifications_header;
+            if (notificationsData !== null) renderNotifications();
 
             // Update footer
             document.getElementById('footer_contact').textContent = langData.footer_contact;
@@ -225,6 +304,7 @@
         window.addEventListener('load', async () => {
             await loadLocales();
             loadPage();
+            fetchNotifications();
 
             // Hamburger menu toggle logic
             const hamburgerBtn = document.getElementById('hamburger-btn');
