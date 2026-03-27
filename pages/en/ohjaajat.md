@@ -139,27 +139,27 @@ Takado has a trained and versatile team of instructors. Our instructors are list
 <div class="instructor-grid">
 
 <div class="instructor-card">
-<img src="images/instructors/ville.jpg" alt="Ville-Pekka Kotkas">
+<img src="images/instructors/ville.jpg" alt="Ville Rasimus">
 <div class="instructor-info">
-<h3>Ville-Pekka Kotkas</h3>
-<span class="belt-badge belt-black">Black Belt</span>
+<h3>Ville Rasimus</h3>
+<span class="belt-badge belt-black">Black Belt 3.dan</span>
 <p class="instructor-role">EJJ Head Instructor</p>
 </div>
 </div>
 
 <div class="instructor-card">
-<img src="images/instructors/bengt.jpeg" alt="Bengt Helin">
+<img src="images/instructors/miikak.jpg" alt="Miika Komu">
 <div class="instructor-info">
-<h3>Bengt Helin</h3>
-<span class="belt-badge belt-purple">Purple Belt</span>
+<h3>Miika Komu</h3>
+<span class="belt-badge belt-black">Black Belt 2.dan</span>
 </div>
 </div>
 
 <div class="instructor-card">
-<img src="images/instructors/miikak.jpg" alt="Miika Kettunen">
+<img src="images/instructors/bengt.jpeg" alt="Bengt Sahlin">
 <div class="instructor-info">
-<h3>Miika Kettunen</h3>
-<span class="belt-badge belt-blue">Blue Belt</span>
+<h3>Bengt Sahlin</h3>
+<span class="belt-badge belt-brown">Brown Belt 2.kyu</span>
 </div>
 </div>
 
