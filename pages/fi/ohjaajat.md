@@ -135,7 +135,35 @@ Takadolla on koulutettu ja monipuolinen ohjaajajoukko. Ohjaajamme on listattu vy
 </div>
 
 <h2 id="ejj">Eurooppalainen jujutsu</h2>
-<p>Ohjaajatiedot päivitetään pian.</p>
+
+<div class="instructor-grid">
+
+<div class="instructor-card">
+<img src="images/instructors/ville.jpg" alt="Ville-Pekka Kotkas">
+<div class="instructor-info">
+<h3>Ville-Pekka Kotkas</h3>
+<span class="belt-badge belt-black">Musta vyö</span>
+<p class="instructor-role">EJJ Pääohjaaja</p>
+</div>
+</div>
+
+<div class="instructor-card">
+<img src="images/instructors/bengt.jpeg" alt="Bengt Helin">
+<div class="instructor-info">
+<h3>Bengt Helin</h3>
+<span class="belt-badge belt-purple">Purppura vyö</span>
+</div>
+</div>
+
+<div class="instructor-card">
+<img src="images/instructors/miikak.jpg" alt="Miika Kettunen">
+<div class="instructor-info">
+<h3>Miika Kettunen</h3>
+<span class="belt-badge belt-blue">Sininen vyö</span>
+</div>
+</div>
+
+</div>
 
 <h2 id="escrima">Escrima</h2>
 <p>Ohjaajatiedot päivitetään pian.</p>

@@ -135,7 +135,35 @@ Takado has a trained and versatile team of instructors. Our instructors are list
 </div>
 
 <h2 id="ejj">European Jujutsu</h2>
-<p>Instructor information will be updated soon.</p>
+
+<div class="instructor-grid">
+
+<div class="instructor-card">
+<img src="images/instructors/ville.jpg" alt="Ville-Pekka Kotkas">
+<div class="instructor-info">
+<h3>Ville-Pekka Kotkas</h3>
+<span class="belt-badge belt-black">Black Belt</span>
+<p class="instructor-role">EJJ Head Instructor</p>
+</div>
+</div>
+
+<div class="instructor-card">
+<img src="images/instructors/bengt.jpeg" alt="Bengt Helin">
+<div class="instructor-info">
+<h3>Bengt Helin</h3>
+<span class="belt-badge belt-purple">Purple Belt</span>
+</div>
+</div>
+
+<div class="instructor-card">
+<img src="images/instructors/miikak.jpg" alt="Miika Kettunen">
+<div class="instructor-info">
+<h3>Miika Kettunen</h3>
+<span class="belt-badge belt-blue">Blue Belt</span>
+</div>
+</div>
+
+</div>
 
 <h2 id="escrima">Escrima</h2>
 <p>Instructor information will be updated soon.</p>
