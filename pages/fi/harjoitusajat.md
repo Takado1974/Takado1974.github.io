@@ -4,6 +4,7 @@ Täältä löydät voimassa olevat harjoitusaikataulut eri lajeillemme.
 
 <h2 id="bjj">Brasilialainen jujutsu (BJJ)</h2>
 
+**Osoite**: Pihatörmä 1D 4 krs (Länsikeskus / Piispanportti)
 | Maanantai | Tiistai | Keskiviikko | Torstai | Perjantai | Lauantai | Sunnuntai |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **16:30 - 18:00**<br>Kehonhuolto BJJ<br>Peter S | **7:00 - 8:00**<br>BJJ<br>Antti | **10:00 - 11:30**<br>No-Gi<br>Tero |  **7:00 - 8:00**<br>No-Gi<br>Tero  | **7:00 - 8:00**<br>No-Gi<br>Tero | **11:00 - 13:00**<br>Open Mat<br>Arto | **11:30 - 13:00**<br>No-Gi<br>Oskari/Suvi |
@@ -14,16 +15,16 @@ Täältä löydät voimassa olevat harjoitusaikataulut eri lajeillemme.
 
 <h2 id="ejj">Eurooppalainen jujutsu</h2>
 
+**Osoite**: Pihatörmä 1D 4 krs (Länsikeskus / Piispanportti)
 | Maanantai | Tiistai | Keskiviikko | Torstai | Perjantai | Lauantai | Sunnuntai |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| | **18:00 - 19:30**<br>EJJ Aikuiset<br>Ohjaaja D | | **18:30 - 20:00**<br>EJJ Aikuiset<br>Ohjaaja E | | | |
-| | | | | | | |
+| **19:30 - 21:00**<br>EJJ kokeneet<br>Ville | | **19:30 - 21:00**<br>EJJ perustekniikka<br>Bengt/Miika | **19:30 - 21:00**<br>EJJ kokeneet<br>Ville | | | **19:30 - 21:00**<br>EJJ perustekniikka<br>Ville |
 
 <h2 id="escrima">Escrima</h2>
 
+**Osoite**: Kannusilta (Kannusillanmäki), Kannusillankatu 4
 | Maanantai | Tiistai | Keskiviikko | Torstai | Perjantai | Lauantai | Sunnuntai |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| | | | | **18:00 - 19:30**<br>Escrima<br>Ohjaaja F | | **12:00 - 14:00**<br>Escrima<br>Ohjaaja G |
-| | | | | | | |
+| **20:00 - 21:30**<br>Escrima<br>Kannusilta, judosali 3 | | **19:00 - 20:30**<br>Escrima<br>Kannusilta, judosali 2 | | | | |
 
 *Huom: Aikataulut voivat muuttua juhlapyhinä tai erityistapahtumien aikana.*
