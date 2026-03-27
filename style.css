@@ -372,6 +372,8 @@ main#content tr:nth-child(even) {
 
 .cell-line:last-child {
     margin-bottom: 0;
+    color: #888; /* Lighter color for Instructor name */
+    font-size: 0.78rem; /* Slightly smaller for Instructor */
 }
 
 main#content img {
