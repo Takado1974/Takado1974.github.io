@@ -14,7 +14,7 @@
     <header class="top-nav">
         <nav>
             <div class="nav-container">
-                <div class="version-tag">v1.1.5</div>
+                <div class="version-tag">v1.1.6</div>
                 <a href="#home" class="nav-logo">
                     <img src="images/cropped-takado-logo.png" alt="Takado Logo">
                     <span class="nav-tagline" id="tagline"></span>
@@ -232,8 +232,13 @@
             
             // Handle sub-sections (e.g., #lajikuvaukset#bjj)
             const parts = hash.split('#');
-            const pageName = parts[0] || 'home';
+            let pageName = parts[0] || 'home';
             const subSection = parts[1];
+
+            // Normalize home page hash
+            if (pageName === 'home' && window.location.hash === '') {
+                // Keep it as home
+            }
 
             const filePath = `pages/${currentLang}/${pageName}.md`;
             const contentDiv = document.getElementById('content');
