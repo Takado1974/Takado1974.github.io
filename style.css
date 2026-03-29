@@ -216,6 +216,15 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.sidebar-header-link {
+    text-decoration: none;
+    display: block;
+}
+
+.sidebar-header-link:hover h3 {
+    color: #f39c12 !important;
+}
+
 #notifications_header {
     font-size: 1.3rem;
     color: #333;
