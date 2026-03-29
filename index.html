@@ -31,6 +31,7 @@
                     <li><a href="#harjoitusajat" id="nav_harjoitusajat"></a></li>
                     <li><a href="#hinnasto" id="nav_hinnasto"></a></li>
                     <li><a href="#ohjaajat" id="nav_ohjaajat"></a></li>
+                    <li class="mobile-only"><a href="#tiedotteet" id="nav_tiedotteet_mobile"></a></li>
                     <li class="lang-switcher">
                         <div class="dropdown">
                             <button class="dropbtn" id="lang-btn"><i class="fa-solid fa-globe"></i> <span id="current-lang-text">FI</span> <i class="fa-solid fa-caret-down"></i></button>
@@ -193,6 +194,9 @@
             document.getElementById('nav_harjoitusajat').textContent = langData.nav_harjoitusajat;
             document.getElementById('nav_hinnasto').textContent = langData.nav_hinnasto;
             document.getElementById('nav_ohjaajat').textContent = langData.nav_ohjaajat;
+            if (document.getElementById('nav_tiedotteet_mobile')) {
+                document.getElementById('nav_tiedotteet_mobile').textContent = langData.nav_tiedotteet;
+            }
             document.getElementById('tagline').textContent = langData.tagline;
             document.getElementById('notifications_header').textContent = langData.notifications_header;
             if (notificationsData !== null) renderNotifications();

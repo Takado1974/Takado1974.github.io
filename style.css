@@ -55,6 +55,10 @@ body {
     padding: 0 1rem;
 }
 
+.mobile-only {
+    display: none;
+}
+
 .nav-logo {
     display: flex;
     flex-direction: column;
@@ -745,6 +749,14 @@ main#content .instructor-card img {
 
     .nav-links.show {
         display: flex;
+    }
+
+    .nav-links li.mobile-only {
+        display: block;
+    }
+
+    .sidebar-column {
+        display: none;
     }
 
     .nav-links li {
