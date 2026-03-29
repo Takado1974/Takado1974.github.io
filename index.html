@@ -95,6 +95,17 @@
             return div.innerHTML;
         }
 
+        function formatDate(dateStr) {
+            if (!dateStr) return '';
+            try {
+                const date = new Date(dateStr);
+                if (isNaN(date.getTime())) return dateStr;
+                return `${date.getDate()}.${date.getMonth() + 1}.${date.getFullYear()}`;
+            } catch (e) {
+                return dateStr;
+            }
+        }
+
         function toggleNotification(index, isFull = false) {
             const prefix = isFull ? 'full-' : '';
             const bodyEl = document.getElementById(`${prefix}notif-body-${index}`);
@@ -140,7 +151,7 @@
                 return `
                     <div class="notif-item ${isFull ? 'full-notif-item' : ''}">
                         <h4 class="notif-title">${escapeHtml(n.title)}</h4>
-                        <span class="notif-date">${escapeHtml(n.date || n.created_at || '')}</span>
+                        <span class="notif-date">${escapeHtml(formatDate(n.date || n.created_at || ''))}</span>
                         <p class="notif-body" id="${isFull ? 'full-' : ''}notif-body-${i}" data-expanded="false">${escapeHtml(truncated)}</p>
                         ${btn}
                     </div>`;
