@@ -278,6 +278,24 @@ body {
     color: #888;
 }
 
+.full-notif-item {
+    background-color: #fcfcfc;
+    padding: 1.5rem;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.full-notif-item .notif-title {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.full-notif-item .notif-body {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
 /* Main Content Styling */
 main#content {
     flex: 1;

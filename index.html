@@ -31,6 +31,7 @@
                     <li><a href="#harjoitusajat" id="nav_harjoitusajat"></a></li>
                     <li><a href="#hinnasto" id="nav_hinnasto"></a></li>
                     <li><a href="#ohjaajat" id="nav_ohjaajat"></a></li>
+                    <li><a href="#tiedotteet" id="nav_tiedotteet"></a></li>
                     <li class="lang-switcher">
                         <div class="dropdown">
                             <button class="dropbtn" id="lang-btn"><i class="fa-solid fa-globe"></i> <span id="current-lang-text">FI</span> <i class="fa-solid fa-caret-down"></i></button>
@@ -94,26 +95,27 @@
             return div.innerHTML;
         }
 
-        function toggleNotification(index) {
-            const bodyEl = document.getElementById(`notif-body-${index}`);
-            const btnEl = document.getElementById(`notif-btn-${index}`);
-            if (!bodyEl || !btnEl || !notificationsData) return;
+        function toggleNotification(index, isFull = false) {
+            const prefix = isFull ? 'full-' : '';
+            const bodyEl = document.getElementById(`${prefix}notif-body-${index}`);
+            const btnEl = document.getElementById(`${prefix}notif-btn-${index}`);
+            if (!bodyEl || !notificationsData) return;
             const langData = locales[currentLang];
             const isExpanded = bodyEl.dataset.expanded === 'true';
             const n = notificationsData[index];
             if (isExpanded) {
                 bodyEl.textContent = n._truncated;
                 bodyEl.dataset.expanded = 'false';
-                btnEl.textContent = langData.notifications_read_more;
+                if (btnEl) btnEl.textContent = langData.notifications_read_more;
             } else {
                 bodyEl.textContent = n.body || '';
                 bodyEl.dataset.expanded = 'true';
-                btnEl.textContent = langData.notifications_read_less;
+                if (btnEl) btnEl.textContent = langData.notifications_read_less;
             }
         }
 
-        function renderNotifications() {
-            const container = document.getElementById('notifications-items');
+        function renderNotifications(containerId = 'notifications-items', isFull = false) {
+            const container = document.getElementById(containerId);
             const langData = locales[currentLang];
             if (!container || !langData) return;
 
@@ -127,32 +129,41 @@
                 const isLong = body.length > NOTIF_BODY_LIMIT;
                 const truncated = isLong ? body.substring(0, NOTIF_BODY_LIMIT) + '…' : body;
                 n._truncated = truncated;
+                
+                // On full page, we might still want to truncate if they are very long, 
+                // but let's show them full if isFull is true, or use a larger limit.
+                // For now, let's keep the same logic but maybe style it differently.
                 const btn = isLong
-                    ? `<button class="notif-toggle-btn" id="notif-btn-${i}" onclick="toggleNotification(${i})">${langData.notifications_read_more}</button>`
+                    ? `<button class="notif-toggle-btn" id="${isFull ? 'full-' : ''}notif-btn-${i}" onclick="toggleNotification(${i}, ${isFull})">${langData.notifications_read_more}</button>`
                     : '';
+                
                 return `
-                    <div class="notif-item">
+                    <div class="notif-item ${isFull ? 'full-notif-item' : ''}">
                         <h4 class="notif-title">${escapeHtml(n.title)}</h4>
                         <span class="notif-date">${escapeHtml(n.date || n.created_at || '')}</span>
-                        <p class="notif-body" id="notif-body-${i}" data-expanded="false">${escapeHtml(truncated)}</p>
+                        <p class="notif-body" id="${isFull ? 'full-' : ''}notif-body-${i}" data-expanded="false">${escapeHtml(truncated)}</p>
                         ${btn}
                     </div>`;
             }).join('');
         }
 
         async function fetchNotifications() {
-            const container = document.getElementById('notifications-items');
+            const sidebarContainer = document.getElementById('notifications-items');
             const langData = locales[currentLang];
-            if (!container) return;
-            container.innerHTML = `<p class="notif-message">${langData ? langData.notifications_loading : 'Ladataan...'}</p>`;
+            if (sidebarContainer) {
+                sidebarContainer.innerHTML = `<p class="notif-message">${langData ? langData.notifications_loading : 'Ladataan...'}</p>`;
+            }
             try {
                 const response = await fetch('https://myclub-proxy.netlify.app/.netlify/functions/notifications');
                 if (!response.ok) throw new Error('fetch failed');
                 notificationsData = await response.json();
-                renderNotifications();
+                renderNotifications('notifications-items', false);
+                renderNotifications('full-notifications-items', true);
             } catch (e) {
                 notificationsData = [];
-                container.innerHTML = `<p class="notif-message">${langData ? langData.notifications_error : 'Virhe.'}</p>`;
+                if (sidebarContainer) {
+                    sidebarContainer.innerHTML = `<p class="notif-message">${langData ? langData.notifications_error : 'Virhe.'}</p>`;
+                }
             }
         }
 
@@ -183,6 +194,7 @@
             document.getElementById('nav_harjoitusajat').textContent = langData.nav_harjoitusajat;
             document.getElementById('nav_hinnasto').textContent = langData.nav_hinnasto;
             document.getElementById('nav_ohjaajat').textContent = langData.nav_ohjaajat;
+            document.getElementById('nav_tiedotteet').textContent = langData.nav_tiedotteet;
             document.getElementById('tagline').textContent = langData.tagline;
             document.getElementById('notifications_header').textContent = langData.notifications_header;
             if (notificationsData !== null) renderNotifications();
@@ -250,6 +262,11 @@
                             cell.innerHTML = lines.map(line => `<div class="cell-line">${line.trim()}</div>`).join('');
                         }
                     });
+
+                    // If we just loaded the tiedotteet page, render the full notifications
+                    if (pageName === 'tiedotteet' && notificationsData !== null) {
+                        renderNotifications('full-notifications-items', true);
+                    }
 
                     updateNavigationActiveState(pageName);
                     
