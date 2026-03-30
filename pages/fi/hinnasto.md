@@ -2,9 +2,13 @@
 
 
 
+Takado ry käyttää Myclubia jäsentietojen, tapahtumien ja laskujen hallintaan. Jäsen- ja harjoitusmaksut maksetaan [Takadon myClubin](https://takado.myclub.fi/) kautta.
+
+
+
 #### Jäsenmaksu:
 
-* 30€ / kalenterivuosi
+* 30 € / kalenterivuosi
 
 
 
@@ -26,7 +30,7 @@
 
 
 
-#### EJJ ja Escrima: 
+#### EJJ ja Escrima:
 
 * Vuosi (365 pv) 290 €
 * 6 kk (180 pv) 160 €
@@ -60,10 +64,6 @@ Harjoitusmaksuihin voit käyttää liikuntaetuja: Smartum, Edenred, Eazybreak, e
 
 
 Harjoitusmaksuihin voi myös käyttää Smartum Lahjakorttia, jos haluat antaa liikunnan iloa esimerkiksi syntymäpäivälahjaksi läheisellesi!
-
-
-
-Takado ry käyttää Myclubia jäsentietojen, tapahtumien ja laskujen hallintaan. Jäsen- ja harjoitusmaksut maksetaan myClubin kautta.
 
 
 
