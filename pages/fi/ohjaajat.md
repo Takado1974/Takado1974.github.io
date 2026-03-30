@@ -1,13 +1,5 @@
 # Ohjaajat
 
-Takadolla on koulutettu ja monipuolinen ohjaajajoukko. Ohjaajamme on listattu vyöarvon ja senioriteettijärjestyksen mukaisesti.
-
-<div class="sub-nav">
-    <a href="#ohjaajat#bjj"><i class="fa-solid fa-chevron-right"></i> Brasilialainen jujutsu</a>
-    <a href="#ohjaajat#ejj"><i class="fa-solid fa-chevron-right"></i> Eurooppalainen jujutsu</a>
-    <a href="#ohjaajat#escrima"><i class="fa-solid fa-chevron-right"></i> Escrima</a>
-</div>
-
 <h2 id="bjj">Brasilialainen jujutsu (BJJ)</h2>
 
 <div class="instructor-grid">
