@@ -1,5 +1,4 @@
 # Disciplines
-Takado offers training in several different martial arts. On this page, you can find descriptions of our main disciplines.
 
 <div class="sub-nav">
     <a href="#lajikuvaukset#bjj"><i class="fa-solid fa-chevron-right"></i> Brazilian Jiu-Jitsu (BJJ)</a>

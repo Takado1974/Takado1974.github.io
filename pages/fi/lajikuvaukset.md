@@ -1,5 +1,4 @@
 # Lajikuvaukset
-Takadossa harjoitellaan useita eri kamppailulajeja. Tältä sivulta löydät kuvaukset päälajeistamme.
 
 <div class="sub-nav">
     <a href="#lajikuvaukset#bjj"><i class="fa-solid fa-chevron-right"></i> Brasilialainen jujutsu (BJJ)</a>

@@ -510,23 +510,26 @@ main#content .media-quote img {
 
 /* Sub-navigation Styling */
 .sub-nav {
-    background-color: #333;
-    padding: 1.5rem;
-    border-radius: 8px;
-    margin: 1.5rem 0;
+    background-color: transparent;
+    padding: 0 0 0.5rem 0;
+    border-bottom: 2px solid #f39c12;
+    border-radius: 0;
+    margin: 0 0 2rem 0;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .sub-nav a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
     display: flex;
     align-items: center;
+    font-size: 0.95rem;
+    text-transform: uppercase;
 }
 
 .sub-nav a i {
