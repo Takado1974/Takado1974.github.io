@@ -23,7 +23,7 @@ body {
 }
 
 .nav-container {
-    max-width: 1100px;
+    max-width: 95%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -199,11 +199,11 @@ body {
 
 /* Main Wrapper & Sidebar Layout */
 .main-wrapper {
-    max-width: 1200px;
+    max-width: 95%;
     margin: 100px auto 20px auto;
     display: flex;
     gap: 20px;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .sidebar-column {
@@ -681,7 +681,7 @@ main#content .instructor-card img {
 }
 
 .footer-columns {
-    max-width: 1100px;
+    max-width: 95%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
