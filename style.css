@@ -332,6 +332,7 @@ main#content h1 {
     padding-bottom: 0.5rem;
     border-bottom: 3px solid #f39c12;
     text-align: left;
+    scroll-margin-top: 100px;
 }
 
 main#content h2 {
@@ -340,24 +341,28 @@ main#content h2 {
     border-bottom: 2px solid #eee;
     padding-bottom: 0.5rem;
     font-size: 1.8rem;
+    scroll-margin-top: 100px;
 }
 
 main#content h3 {
     margin: 2rem 0 1rem 0;
     color: #333;
     font-size: 1.5rem;
+    scroll-margin-top: 100px;
 }
 
 main#content h4 {
     margin: 1.5rem 0 0.8rem 0;
     color: #333;
     font-size: 1.3rem;
+    scroll-margin-top: 100px;
 }
 
 main#content h5 {
     margin: 1.2rem 0 0.6rem 0;
     color: #333;
     font-size: 1.15rem;
+    scroll-margin-top: 100px;
 }
 
 main#content h6 {
@@ -365,6 +370,7 @@ main#content h6 {
     color: #333;
     font-size: 1.1rem;
     text-transform: uppercase;
+    scroll-margin-top: 100px;
 }
 
 /* Paragraphs and Lists */
