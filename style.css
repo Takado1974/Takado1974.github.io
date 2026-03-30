@@ -326,17 +326,16 @@ main#content {
 
 /* Headers */
 main#content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    text-align: center;
-    padding: 3rem 0;
-    background-color: #ecf0f1;
-    border-radius: 8px;
+    font-size: 2.2rem;
     color: #333;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #f39c12;
+    text-align: left;
 }
 
 main#content h2 {
-    margin: 2.5rem 0 1rem 0;
+    margin: 2.5rem 0 1.2rem 0;
     color: #333;
     border-bottom: 2px solid #eee;
     padding-bottom: 0.5rem;
