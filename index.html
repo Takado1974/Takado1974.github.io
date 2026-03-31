@@ -98,11 +98,11 @@
 
         function renderBody(str) {
             if (/<[a-z][\s\S]*>/i.test(str)) {
-                return str; // HTML from details_html — render as-is
+                return str.replace(/(<p>\s*(<br\s*\/?>\s*)*<\/p>\s*)+$/gi, '').trim();
             }
             return str.split('\n')
                 .map(line => escapeHtml(line.trim()))
-                .join('<br>'); // plain text fallback
+                .join('<br>');
         }
 
 

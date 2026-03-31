@@ -290,8 +290,7 @@ body {
     margin: 0.15em 0;
 }
 
-.notif-body p:empty,
-.notif-body p:has(> br:only-child) {
+.notif-body p:empty {
     display: none;
 }
 
@@ -303,7 +302,7 @@ body {
     font-size: 0.88rem;
     font-weight: bold;
     padding: 0;
-    margin-top: 0.4rem;
+    margin-top: 0.75rem;
     display: block;
 }
 
