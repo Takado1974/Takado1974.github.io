@@ -126,7 +126,7 @@
             const isExpanded = bodyEl.dataset.expanded === 'true';
             const n = notificationsData[index];
             if (isExpanded) {
-                bodyEl.innerHTML = renderBody(n._truncated);
+                bodyEl.textContent = n._truncated;
                 bodyEl.dataset.expanded = 'false';
                 if (btnEl) btnEl.textContent = langData.notifications_read_more;
             } else {
@@ -148,10 +148,10 @@
 
             container.innerHTML = notificationsData.map((n, i) => {
                 const body = n.body || '';
-                const textLen = body.replace(/<[^>]*>/g, '').length;
-                const isLong = textLen > NOTIF_BODY_LIMIT;
-                const truncated = isLong ? body.substring(0, NOTIF_BODY_LIMIT) + '…' : body;
-                n._truncated = truncated;
+                const plainText = body.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+                const isLong = plainText.length > NOTIF_BODY_LIMIT;
+                const truncatedPlain = isLong ? plainText.substring(0, NOTIF_BODY_LIMIT) + '…' : plainText;
+                n._truncated = truncatedPlain;
                 
                 // On full page, we might still want to truncate if they are very long, 
                 // but let's show them full if isFull is true, or use a larger limit.
@@ -164,7 +164,7 @@
                     <div class="notif-item ${isFull ? 'full-notif-item' : ''}">
                         <h4 class="notif-title">${escapeHtml(n.title)}</h4>
                         <span class="notif-date">${escapeHtml(formatDate(n.date || n.created_at || ''))}</span>
-                        <div class="notif-body" id="${isFull ? 'full-' : ''}notif-body-${i}" data-expanded="false">${renderBody(truncated)}</div>
+                        <div class="notif-body" id="${isFull ? 'full-' : ''}notif-body-${i}" data-expanded="false">${escapeHtml(truncatedPlain)}</div>
                         ${btn}
                     </div>`;
             }).join('');

@@ -242,7 +242,7 @@ body {
 
 .notif-item {
     margin-bottom: 1.5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     border-bottom: 1px solid #eee;
 }
 
@@ -270,7 +270,29 @@ body {
     color: #555;
     line-height: 1.4;
     margin: 0;
-    white-space: pre-wrap;
+}
+
+.notif-body p {
+    margin: 0.25em 0;
+}
+
+.notif-body p:last-child {
+    margin-bottom: 0;
+}
+
+.notif-body ul,
+.notif-body ol {
+    margin: 0.25em 0;
+    padding-left: 1.4em;
+}
+
+.notif-body li {
+    margin: 0.15em 0;
+}
+
+.notif-body p:empty,
+.notif-body p:has(> br:only-child) {
+    display: none;
 }
 
 .notif-toggle-btn {
