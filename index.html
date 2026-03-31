@@ -97,7 +97,10 @@
         }
 
         function textToHtml(str) {
-            return escapeHtml(str).replace(/\n/g, '<br>');
+            return escapeHtml(str)
+                .split('\n')
+                .map(line => line.trim())
+                .join('<br>');
         }
 
 
