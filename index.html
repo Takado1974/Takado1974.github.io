@@ -154,7 +154,7 @@
                     <div class="notif-item ${isFull ? 'full-notif-item' : ''}">
                         <h4 class="notif-title">${escapeHtml(n.title)}</h4>
                         <span class="notif-date">${escapeHtml(formatDate(n.date || n.created_at || ''))}</span>
-                        <p class="notif-body" id="${isFull ? 'full-' : ''}notif-body-${i}" data-expanded="false">${truncated}</p>
+                        <div class="notif-body" id="${isFull ? 'full-' : ''}notif-body-${i}" data-expanded="false">${truncated}</div>
                         ${btn}
                     </div>`;
             }).join('');
