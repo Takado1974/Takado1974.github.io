@@ -116,11 +116,11 @@
             const isExpanded = bodyEl.dataset.expanded === 'true';
             const n = notificationsData[index];
             if (isExpanded) {
-                bodyEl.textContent = n._truncated;
+                bodyEl.innerHTML = n._truncated;
                 bodyEl.dataset.expanded = 'false';
                 if (btnEl) btnEl.textContent = langData.notifications_read_more;
             } else {
-                bodyEl.textContent = n.body || '';
+                bodyEl.innerHTML = n.body || '';
                 bodyEl.dataset.expanded = 'true';
                 if (btnEl) btnEl.textContent = langData.notifications_read_less;
             }
@@ -138,7 +138,8 @@
 
             container.innerHTML = notificationsData.map((n, i) => {
                 const body = n.body || '';
-                const isLong = body.length > NOTIF_BODY_LIMIT;
+                const textBody = body.replace(/<[^>]*>/g, '');
+                const isLong = textBody.length > NOTIF_BODY_LIMIT;
                 const truncated = isLong ? body.substring(0, NOTIF_BODY_LIMIT) + '…' : body;
                 n._truncated = truncated;
                 
@@ -153,7 +154,7 @@
                     <div class="notif-item ${isFull ? 'full-notif-item' : ''}">
                         <h4 class="notif-title">${escapeHtml(n.title)}</h4>
                         <span class="notif-date">${escapeHtml(formatDate(n.date || n.created_at || ''))}</span>
-                        <p class="notif-body" id="${isFull ? 'full-' : ''}notif-body-${i}" data-expanded="false">${escapeHtml(truncated)}</p>
+                        <p class="notif-body" id="${isFull ? 'full-' : ''}notif-body-${i}" data-expanded="false">${truncated}</p>
                         ${btn}
                     </div>`;
             }).join('');
