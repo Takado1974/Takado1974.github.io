@@ -96,10 +96,13 @@
             return div.innerHTML;
         }
 
-        function textToHtml(str) {
+        function renderBody(str) {
+            if (/<[a-z][\s\S]*>/i.test(str)) {
+                return str; // HTML from details_html — render as-is
+            }
             return str.split('\n')
                 .map(line => escapeHtml(line.trim()))
-                .join('<br>');
+                .join('<br>'); // plain text fallback
         }
 
 
@@ -123,11 +126,11 @@
             const isExpanded = bodyEl.dataset.expanded === 'true';
             const n = notificationsData[index];
             if (isExpanded) {
-                bodyEl.innerHTML = textToHtml(n._truncated);
+                bodyEl.innerHTML = renderBody(n._truncated);
                 bodyEl.dataset.expanded = 'false';
                 if (btnEl) btnEl.textContent = langData.notifications_read_more;
             } else {
-                bodyEl.innerHTML = textToHtml(n.body || '');
+                bodyEl.innerHTML = renderBody(n.body || '');
                 bodyEl.dataset.expanded = 'true';
                 if (btnEl) btnEl.textContent = langData.notifications_read_less;
             }
@@ -161,7 +164,7 @@
                     <div class="notif-item ${isFull ? 'full-notif-item' : ''}">
                         <h4 class="notif-title">${escapeHtml(n.title)}</h4>
                         <span class="notif-date">${escapeHtml(formatDate(n.date || n.created_at || ''))}</span>
-                        <div class="notif-body" id="${isFull ? 'full-' : ''}notif-body-${i}" data-expanded="false">${textToHtml(truncated)}</div>
+                        <div class="notif-body" id="${isFull ? 'full-' : ''}notif-body-${i}" data-expanded="false">${renderBody(truncated)}</div>
                         ${btn}
                     </div>`;
             }).join('');
