@@ -148,6 +148,14 @@
 </div>
 
 <div class="instructor-card">
+<img src="images/instructors/aarre.jpeg" alt="Aarre Järvinen">
+<div class="instructor-info">
+<h3>Aarre Järvinen</h3>
+<span class="belt-badge belt-black">Black Belt</span>
+</div>
+</div>
+
+<div class="instructor-card">
 <img src="images/instructors/bengt.jpeg" alt="Bengt Sahlin">
 <div class="instructor-info">
 <h3>Bengt Sahlin</h3>
