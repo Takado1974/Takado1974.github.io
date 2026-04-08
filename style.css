@@ -539,14 +539,14 @@ main#content .media-quote img {
 /* Sub-navigation Styling */
 .sub-nav {
     background-color: transparent;
-    padding: 0 0 0.5rem 0;
+    padding: 0 0 0.8rem 0;
     border-bottom: 2px solid #f39c12;
     border-radius: 0;
-    margin: 0 0 2rem 0;
+    margin: 0 0 2.5rem 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: flex-start;
+    gap: 3rem;
+    justify-content: center;
 }
 
 .sub-nav a {
@@ -827,5 +827,10 @@ main#content .instructor-card img {
 
     .media-quote .media-part {
         max-width: 100%;
+    }
+
+    .sub-nav {
+        gap: 1.5rem;
+        padding-bottom: 0.5rem;
     }
 }
