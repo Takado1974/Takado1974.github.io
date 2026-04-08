@@ -1,9 +1,9 @@
 # Disciplines
 
 <div class="sub-nav">
-    <a href="#lajikuvaukset#bjj"><i class="fa-solid fa-chevron-right"></i> Brazilian Jiu-Jitsu (BJJ)</a>
-    <a href="#lajikuvaukset#ejj"><i class="fa-solid fa-chevron-right"></i> European Jujutsu</a>
-    <a href="#lajikuvaukset#escrima"><i class="fa-solid fa-chevron-right"></i> Escrima</a>
+    <a href="#lajikuvaukset#bjj">Brazilian Jiu-Jitsu (BJJ)</a>
+    <a href="#lajikuvaukset#ejj">European Jujutsu</a>
+    <a href="#lajikuvaukset#escrima">Escrima</a>
 </div>
 
 <h2 id="bjj">Brazilian Jiu-Jitsu (BJJ)</h2>
