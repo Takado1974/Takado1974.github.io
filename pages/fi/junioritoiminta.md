@@ -63,3 +63,45 @@ Oppimista mitataan syksyn ja kevään lopussa vyökokeissa. Lapsilla ja juniorei
 Renata, harjoitellut Takadolla 5 vuotta"</blockquote>
     </div>
 </div>
+
+##### Ohjaajat
+
+<div class="instructor-grid">
+
+<div class="instructor-card">
+<img src="images/instructors/ilkkas.jpg" alt="Ilkka Sutinen">
+<div class="instructor-info">
+<h3>Ilkka Sutinen</h3>
+<span class="belt-badge belt-brown">Ruskea vyö</span>
+<p class="instructor-role">BJJ Juniorit</p>
+</div>
+</div>
+
+<div class="instructor-card">
+<img src="images/instructors/peters.jpg" alt="Peter Sandberg">
+<div class="instructor-info">
+<h3>Peter Sandberg</h3>
+<span class="belt-badge belt-purple">Purppura vyö</span>
+<p class="instructor-role">BJJ Juniorit</p>
+</div>
+</div>
+
+<div class="instructor-card">
+<img src="images/instructors/heikkip.jpg" alt="Heikki Palosaari">
+<div class="instructor-info">
+<h3>Heikki Palosaari</h3>
+<span class="belt-badge belt-blue">Sininen vyö</span>
+<p class="instructor-role">BJJ Juniorit · Perhejujutsu · BJJ Peruskurssi</p>
+</div>
+</div>
+
+<div class="instructor-card">
+<img src="images/instructors/mikkoc.jpg" alt="Mikko Cavenius">
+<div class="instructor-info">
+<h3>Mikko Cavenius</h3>
+<span class="belt-badge belt-blue">Sininen vyö</span>
+<p class="instructor-role">BJJ Juniorit · Perhejujutsu</p>
+</div>
+</div>
+
+</div>

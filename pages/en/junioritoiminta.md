@@ -63,3 +63,45 @@ Learning is measured at the end of the autumn and spring seasons in belt tests. 
 Renata, training at Takado for 5 years"</blockquote>
     </div>
 </div>
+
+##### Instructors
+
+<div class="instructor-grid">
+
+<div class="instructor-card">
+<img src="images/instructors/ilkkas.jpg" alt="Ilkka Sutinen">
+<div class="instructor-info">
+<h3>Ilkka Sutinen</h3>
+<span class="belt-badge belt-brown">Brown Belt</span>
+<p class="instructor-role">BJJ Juniors</p>
+</div>
+</div>
+
+<div class="instructor-card">
+<img src="images/instructors/peters.jpg" alt="Peter Sandberg">
+<div class="instructor-info">
+<h3>Peter Sandberg</h3>
+<span class="belt-badge belt-purple">Purple Belt</span>
+<p class="instructor-role">BJJ Juniors</p>
+</div>
+</div>
+
+<div class="instructor-card">
+<img src="images/instructors/heikkip.jpg" alt="Heikki Palosaari">
+<div class="instructor-info">
+<h3>Heikki Palosaari</h3>
+<span class="belt-badge belt-blue">Blue Belt</span>
+<p class="instructor-role">BJJ Juniors · Family Jujutsu · BJJ Basic Course</p>
+</div>
+</div>
+
+<div class="instructor-card">
+<img src="images/instructors/mikkoc.jpg" alt="Mikko Cavenius">
+<div class="instructor-info">
+<h3>Mikko Cavenius</h3>
+<span class="belt-badge belt-blue">Blue Belt</span>
+<p class="instructor-role">BJJ Juniors · Family Jujutsu</p>
+</div>
+</div>
+
+</div>
