@@ -33,16 +33,6 @@ body {
     min-height: 60px;
 }
 
-.version-tag {
-    position: absolute;
-    top: 2px;
-    left: 1rem;
-    font-size: 0.65rem;
-    color: #666;
-    font-weight: normal;
-    pointer-events: none;
-}
-
 .nav-links {
     list-style: none;
     display: flex;
