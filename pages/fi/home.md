@@ -2,6 +2,8 @@
     <h1>Tervetuloa Takadoon</h1>
 </div>
 
+## Lajikuvaukset
+
 <div class="discipline-grid">
     <a href="#lajikuvaukset#bjj" class="discipline-card">
         <img src="images/lajit_bjj.jpg" alt="Brasilialainen jujutsu">

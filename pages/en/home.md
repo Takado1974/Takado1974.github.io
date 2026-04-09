@@ -2,6 +2,8 @@
     <h1>Welcome to Takado</h1>
 </div>
 
+## Disciplines
+
 <div class="discipline-grid">
     <a href="#lajikuvaukset#bjj" class="discipline-card">
         <img src="images/lajit_bjj.jpg" alt="Brazilian Jiu-Jitsu">
