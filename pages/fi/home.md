@@ -14,7 +14,7 @@
         </div>
     </a>
     <a href="#lajikuvaukset#escrima" class="discipline-card">
-        <img src="images/lajit_escrima.jpg" alt="Escrima">
+        <img src="images/escrima_1.jpg" alt="Escrima">
         <div class="discipline-info">
             <h3>Escrima</h3>
         </div>
