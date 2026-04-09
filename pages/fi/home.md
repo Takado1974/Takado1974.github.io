@@ -1,4 +1,6 @@
-# Tervetuloa Takadoon
+<div class="hero-header">
+    <h1>Tervetuloa Takadoon</h1>
+</div>
 
 <div class="discipline-grid">
     <a href="#lajikuvaukset#bjj" class="discipline-card">
