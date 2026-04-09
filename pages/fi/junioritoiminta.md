@@ -73,7 +73,7 @@ Renata, harjoitellut Takadolla 5 vuotta"</blockquote>
 <div class="instructor-info">
 <h3>Ilkka Sutinen</h3>
 <span class="belt-badge belt-brown">Ruskea vyö</span>
-<p class="instructor-role">BJJ Juniorit</p>
+<p class="instructor-role">BJJ Nuoret</p>
 </div>
 </div>
 
@@ -82,7 +82,7 @@ Renata, harjoitellut Takadolla 5 vuotta"</blockquote>
 <div class="instructor-info">
 <h3>Peter Sandberg</h3>
 <span class="belt-badge belt-purple">Purppura vyö</span>
-<p class="instructor-role">BJJ Juniorit</p>
+<p class="instructor-role">BJJ Pandat</p>
 </div>
 </div>
 
@@ -91,7 +91,7 @@ Renata, harjoitellut Takadolla 5 vuotta"</blockquote>
 <div class="instructor-info">
 <h3>Heikki Palosaari</h3>
 <span class="belt-badge belt-blue">Sininen vyö</span>
-<p class="instructor-role">BJJ Juniorit · Perhejujutsu · BJJ Peruskurssi</p>
+<p class="instructor-role">Perhejujutsu</p>
 </div>
 </div>
 
@@ -100,7 +100,7 @@ Renata, harjoitellut Takadolla 5 vuotta"</blockquote>
 <div class="instructor-info">
 <h3>Mikko Cavenius</h3>
 <span class="belt-badge belt-blue">Sininen vyö</span>
-<p class="instructor-role">BJJ Juniorit · Perhejujutsu</p>
+<p class="instructor-role">BJJ Koalat</p>
 </div>
 </div>
 

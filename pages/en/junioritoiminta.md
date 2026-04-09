@@ -73,7 +73,7 @@ Renata, training at Takado for 5 years"</blockquote>
 <div class="instructor-info">
 <h3>Ilkka Sutinen</h3>
 <span class="belt-badge belt-brown">Brown Belt</span>
-<p class="instructor-role">BJJ Juniors</p>
+<p class="instructor-role">BJJ Youth</p>
 </div>
 </div>
 
@@ -82,7 +82,7 @@ Renata, training at Takado for 5 years"</blockquote>
 <div class="instructor-info">
 <h3>Peter Sandberg</h3>
 <span class="belt-badge belt-purple">Purple Belt</span>
-<p class="instructor-role">BJJ Juniors</p>
+<p class="instructor-role">BJJ Pandas</p>
 </div>
 </div>
 
@@ -91,7 +91,7 @@ Renata, training at Takado for 5 years"</blockquote>
 <div class="instructor-info">
 <h3>Heikki Palosaari</h3>
 <span class="belt-badge belt-blue">Blue Belt</span>
-<p class="instructor-role">BJJ Juniors · Family Jujutsu · BJJ Basic Course</p>
+<p class="instructor-role">Family Jujutsu</p>
 </div>
 </div>
 
@@ -100,7 +100,7 @@ Renata, training at Takado for 5 years"</blockquote>
 <div class="instructor-info">
 <h3>Mikko Cavenius</h3>
 <span class="belt-badge belt-blue">Blue Belt</span>
-<p class="instructor-role">BJJ Juniors · Family Jujutsu</p>
+<p class="instructor-role">BJJ Koalas</p>
 </div>
 </div>
 
