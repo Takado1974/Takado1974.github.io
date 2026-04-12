@@ -2,7 +2,7 @@
 
 Oletko kokenut kamppailu-urheilun harrastaja vai etsitkö uutta harrastusta itsellesi tai lapsellesi? Tule mukaan Takadolle!
 
-Meillä treenaat brasilialaista jujutsua, eurooppalaista jujutsua, escrimaa and kyudoa perinteikkäässä kamppailuseurassa, rennossa ja iloisessa ilmapiirissä. Takadon sali sijaitsee Espoossa, Olarissa, hyvin kulkuyhteyksien varrella.
+Meillä treenaat brasilialaista jujutsua, eurooppalaista jujutsua, escrimaa ja kyudoa perinteikkäässä kamppailuseurassa, rennossa ja iloisessa ilmapiirissä. Takadon sali sijaitsee Espoossa, Olarissa, hyvin kulkuyhteyksien varrella.
 
 Takadolta löytyvät
 
@@ -18,7 +18,7 @@ Uutena harrastajana pääset parhaiten mukaan käymällä valitsemasi lajin peru
 * **BJJ junnut: kausi käynnissä, kysele vapaita paikkoja!**
 * **EJJ non-stop aloitus uusille harrastajille keskiviikkoisin ja sunnuntaisin**
 
-Kursseilla on jatkuva sisäänotto. Ota meihin yhteyttä alla olevan painikkeen kautta, kerro, mikä laji kiinnostaa ja ilmoittaudu treeneihin! 
+Kursseilla on jatkuva sisäänotto. Ota meihin, kerro, mikä laji kiinnostaa ja ilmoittaudu treeneihin! 
 
 Tervetuloa myös rohkeasti käymään salilla treeniaikoina!
 
