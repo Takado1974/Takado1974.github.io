@@ -2,7 +2,7 @@
 
 Are you an experienced martial artist or are you looking for a new hobby for yourself or your child? Join us at Takado!
 
-With us, you can train in Brazilian Jiu-Jitsu, European Jujutsu, Escrima, and Kyudo in a traditional martial arts club, in a relaxed and cheerful atmosphere. Takado's gym is located in Espoo, Olari, with excellent transport links.
+With us, you can train in Brazilian Jiu-Jitsu, European Jujutsu, Escrima and Kyudo in a traditional martial arts club, in a relaxed and cheerful atmosphere. Takado's gym is located in Espoo, Olari, with excellent transport links.
 
 At Takado, you will find:
 
@@ -18,7 +18,7 @@ As a new practitioner, the best way to get started is by attending the basic cou
 * **BJJ juniors: season in progress, ask about available spots!**
 * **EJJ non-stop start for new practitioners on Wednesdays and Sundays**
 
-The courses have continuous enrollment. Contact us via the button below, let us know which discipline interests you, and sign up for training!
+The courses have continuous enrollment. Contact us, let us know which discipline interests you, and sign up for training!
 
 You are also very welcome to visit the gym during training hours!
 
