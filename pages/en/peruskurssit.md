@@ -9,6 +9,11 @@ Welcome to start Brazilian Jiu-Jitsu at Takado!
 * Bring workout clothes, a water bottle, and indoor sandals
 * Getting a Gi (BJJ uniform) is recommended during the course, but not mandatory
 
+<div class="peruskurssi-images">
+    <img src="images/peruskurssi_1.jpg" alt="Basic Course 1">
+    <img src="images/peruskurssi_2.jpg" alt="Basic Course 2">
+</div>
+
 The basic course does not require any previous background in the sport and is intended for everyone over 15 years old. During the basic course, in addition to the actual techniques, sport-specific movement and other fundamentals are learned. The basic course can be completed according to your own fitness level, and instructors will guide you through everything. The training has a relaxed and encouraging atmosphere. Takado's basic course training does not include sparring (practice matches). Sparring begins after the basic course under safe guidance. Moving to general training is smooth: BJJ advanced technique sessions are designed as a seamless continuation after the basic technique sessions.
 
 **Basic technique sessions start from the beginning 4 times a year.** You get the clearest overview by joining at the beginning of a new course, but starting is possible at any time. The weeks between courses are used for review and getting used to supervised and safe sparring. The basic course fee allows you to train for 3 months. After moving to the advanced group, you can still attend basic technique classes with your training fee, and regular review is recommended even for experienced practitioners.

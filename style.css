@@ -665,6 +665,18 @@ main#content .discipline-card img {
     margin: 2rem 0;
 }
 
+.peruskurssi-images {
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+    justify-content: center;
+}
+
+.peruskurssi-images img {
+    width: 45% !important;
+    margin: 0 !important;
+}
+
 .instructor-card {
     background: #f9f9f9;
     border-radius: 10px;
