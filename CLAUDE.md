@@ -25,6 +25,7 @@ Single-page app (`index.html`) that loads Markdown content dynamically using `ma
 | `harjoitusajat.md` | Harjoitusajat | Schedules |
 | `hinnasto.md` | Hinnasto | Prices |
 | `ohjaajat.md` | Ohjaajat | Instructors |
+| `peruskurssit.md` | Peruskurssit | Basic Courses |
 
 ## Content Rules
 
