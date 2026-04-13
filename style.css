@@ -177,13 +177,15 @@ body {
     color: #f39c12 !important;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content,
+.dropdown.show .dropdown-content {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
 }
 
-.dropdown:hover .dropbtn {
+.dropdown:hover .dropbtn,
+.dropdown.show .dropbtn {
     color: #f39c12;
 }
 

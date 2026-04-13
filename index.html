@@ -340,15 +340,38 @@
             // Hamburger menu toggle logic
             const hamburgerBtn = document.getElementById('hamburger-btn');
             const navMenu = document.getElementById('nav-menu');
+            const langBtn = document.getElementById('lang-btn');
+            const langDropdown = langBtn.closest('.dropdown');
 
             hamburgerBtn.addEventListener('click', () => {
                 navMenu.classList.toggle('show');
             });
 
+            langBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                langDropdown.classList.toggle('show');
+            });
+
             // Close menu when a link is clicked (on mobile)
             navMenu.addEventListener('click', (e) => {
+                // If it's a language switch link, it will call switchLanguage and we should close the menu
+                if (e.target.tagName === 'A' && e.target.closest('.dropdown-content')) {
+                    navMenu.classList.remove('show');
+                    langDropdown.classList.remove('show');
+                    return;
+                }
+
+                // If it's a regular nav link
                 if (e.target.tagName === 'A') {
                     navMenu.classList.remove('show');
+                }
+            });
+
+            // Close dropdowns when clicking outside
+            window.addEventListener('click', (e) => {
+                if (!langDropdown.contains(e.target)) {
+                    langDropdown.classList.remove('show');
                 }
             });
         });
