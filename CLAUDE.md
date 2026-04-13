@@ -37,7 +37,7 @@ Single-page app (`index.html`) that loads Markdown content dynamically using `ma
 
 The left sidebar contains two stacked panels inside `.sidebar-column`:
 - `#news-sidebar` — static news items (hardcoded HTML)
-- `#notifications-sidebar` — dynamic, fetched from `https://myclub-proxy.netlify.app/.netlify/functions/notifications`
+- `#notifications-sidebar` — dynamic, fetched from `https://myClub-proxy.netlify.app/.netlify/functions/notifications`
 
 Notifications are fetched once on page load via `fetchNotifications()`. The data is stored in `notificationsData` (module-level). On language switch, `renderNotifications()` re-renders the cards with the new locale labels. The notification body text is displayed as plain text (escaped); cards with body > 200 characters get a "Lue lisää / Read more" toggle button. Expected API response shape: array of objects with `title`, `date` (or `created_at`), and `body` fields.
 

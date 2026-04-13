@@ -1,6 +1,6 @@
 # Fees and Price List
 
-Takado ry uses myClub for managing membership data, events, and invoicing. Membership and training fees are paid through [Takado's myClub](https://takado.myclub.fi/).
+Takado ry uses myClub for managing membership data, events, and invoicing. Membership and training fees are paid through [Takado's myClub](https://takado.myClub.fi/).
 
 #### Membership Fee:
 * 30 € / calendar year

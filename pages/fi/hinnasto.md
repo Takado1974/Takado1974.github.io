@@ -2,7 +2,7 @@
 
 
 
-Takado ry käyttää Myclubia jäsentietojen, tapahtumien ja laskujen hallintaan. Jäsen- ja harjoitusmaksut maksetaan [Takadon myClubin](https://takado.myclub.fi/) kautta.
+Takado ry käyttää myClubia jäsentietojen, tapahtumien ja laskujen hallintaan. Jäsen- ja harjoitusmaksut maksetaan [Takadon myClubin](https://takado.myClub.fi/) kautta.
 
 
 
