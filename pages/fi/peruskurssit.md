@@ -31,8 +31,3 @@ Peruskurssi ei vaadi aikaisempaa lajitaustaa ja on tarkoitettu kaikille yli 15 v
 **Takadolla vahva perustekniikka on seuramme ylpeys** ja peruskurssia valmentavat osaavat ja kokeneet valmentajat Anssi Lehtimäki ja Kivi Sotamaa, päävalmentajamme Markku Juntusen jalanjäljissä. 
 
 
-
-Ilmoittaudu mukaan [myClubin kautta](https://takado.myClub.fi/).
-
-Lisätietoja kursseista saat sähköpostitse: takado(at)takado.fi
-

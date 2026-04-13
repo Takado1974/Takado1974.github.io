@@ -19,7 +19,3 @@ The basic course does not require any previous background in the sport and is in
 **Basic technique sessions start from the beginning 4 times a year.** You get the clearest overview by joining at the beginning of a new course, but starting is possible at any time. The weeks between courses are used for review and getting used to supervised and safe sparring. The basic course fee allows you to train for 3 months. After moving to the advanced group, you can still attend basic technique classes with your training fee, and regular review is recommended even for experienced practitioners.
 
 **At Takado, strong basic technique is our club's pride**, and the basic course is coached by skilled and experienced trainers Anssi Lehtimäki and Kivi Sotamaa, following in the footsteps of our head coach Markku Juntunen.
-
-Register via [myClub](https://takado.myClub.fi/).
-
-For more information about the courses, contact us by email: takado(at)takado.fi
