@@ -376,6 +376,11 @@ main#content h1 {
     letter-spacing: 2px;
 }
 
+.hero-header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 main#content h2 {
     margin: 2.5rem 0 1.2rem 0;
     color: #333;

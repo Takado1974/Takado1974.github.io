@@ -1,5 +1,5 @@
 <div class="hero-header">
-    <h1>Tervetuloa Takadoon</h1>
+    <a href="#tule-mukaan"><h1>Tervetuloa Takadoon</h1></a>
 </div>
 
 ## Lajikuvaukset

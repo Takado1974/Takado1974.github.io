@@ -1,5 +1,5 @@
 <div class="hero-header">
-    <h1>Welcome to Takado</h1>
+    <a href="#tule-mukaan"><h1>Welcome to Takado</h1></a>
 </div>
 
 ## Disciplines
