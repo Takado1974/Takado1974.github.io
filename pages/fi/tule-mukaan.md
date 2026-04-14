@@ -18,7 +18,7 @@ Uutena harrastajana pääset parhaiten mukaan käymällä valitsemasi lajin peru
 * **BJJ junnut: kausi käynnissä, kysele vapaita paikkoja!**
 * **EJJ non-stop aloitus uusille harrastajille keskiviikkoisin ja sunnuntaisin**
 
-Kursseilla on jatkuva sisäänotto. Ota meihin, kerro mikä laji kiinnostaa ja ilmoittaudu treeneihin! 
+Kursseilla on jatkuva sisäänotto. Kerro mikä laji kiinnostaa ja ilmoittaudu treeneihin! 
 
 Tervetuloa myös rohkeasti käymään salilla treeniaikoina!
 
