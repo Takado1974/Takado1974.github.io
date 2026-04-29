@@ -146,20 +146,21 @@
                 return;
             }
 
-            container.innerHTML = notificationsData.map((n, i) => {
+            const SIDEBAR_MAX = 5;
+            const items = isFull ? notificationsData : notificationsData.slice(0, SIDEBAR_MAX);
+            const hasMore = !isFull && notificationsData.length > SIDEBAR_MAX;
+
+            container.innerHTML = items.map((n, i) => {
                 const body = n.body || '';
                 const plainText = body.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
                 const isLong = plainText.length > NOTIF_BODY_LIMIT;
                 const truncatedPlain = isLong ? plainText.substring(0, NOTIF_BODY_LIMIT) + '…' : plainText;
                 n._truncated = truncatedPlain;
-                
-                // On full page, we might still want to truncate if they are very long, 
-                // but let's show them full if isFull is true, or use a larger limit.
-                // For now, let's keep the same logic but maybe style it differently.
+
                 const btn = isLong
                     ? `<button class="notif-toggle-btn" id="${isFull ? 'full-' : ''}notif-btn-${i}" onclick="toggleNotification(${i}, ${isFull})">${langData.notifications_read_more}</button>`
                     : '';
-                
+
                 return `
                     <div class="notif-item ${isFull ? 'full-notif-item' : ''}">
                         <h4 class="notif-title">${escapeHtml(n.title)}</h4>
@@ -168,6 +169,10 @@
                         ${btn}
                     </div>`;
             }).join('');
+
+            if (hasMore) {
+                container.innerHTML += `<a href="#tiedotteet" class="notif-more-link">${langData.notifications_see_all}</a>`;
+            }
         }
 
         async function fetchNotifications() {
