@@ -148,6 +148,7 @@
 
             const SIDEBAR_MAX = 5;
             const items = isFull ? notificationsData : notificationsData.slice(0, SIDEBAR_MAX);
+            items.reverse();
             const hasMore = !isFull && notificationsData.length > SIDEBAR_MAX;
 
             container.innerHTML = items.map((n, i) => {
