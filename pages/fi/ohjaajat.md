@@ -33,7 +33,7 @@
 <img src="images/instructors/jukkaj.jpg" alt="Jukka Järvinen">
 <div class="instructor-info">
 <h3>Jukka Järvinen</h3>
-<span class="belt-badge belt-black">1. asteen Musta vyö</span>
+<span class="belt-badge belt-black">1. Asteen Musta vyö</span>
 </div>
 </div>
 
