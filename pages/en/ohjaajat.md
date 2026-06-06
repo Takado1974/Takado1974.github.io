@@ -159,7 +159,7 @@
 <img src="images/instructors/bengt.jpeg" alt="Bengt Sahlin">
 <div class="instructor-info">
 <h3>Bengt Sahlin</h3>
-<span class="belt-badge belt-brown">Brown Belt 2.kyu</span>
+<span class="belt-badge belt-brown">Brown Belt 1.kyu</span>
 </div>
 </div>
 
