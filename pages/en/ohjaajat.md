@@ -30,14 +30,6 @@
 </div>
 
 <div class="instructor-card">
-<img src="images/instructors/jukkaj.jpg" alt="Jukka Järvinen">
-<div class="instructor-info">
-<h3>Jukka Järvinen</h3>
-<span class="belt-badge belt-black">1st Degree Black Belt</span>
-</div>
-</div>
-
-<div class="instructor-card">
 <img src="images/instructors/oskaril.jpg" alt="Oskari Loikkanen">
 <div class="instructor-info">
 <h3>Oskari Loikkanen</h3>
@@ -60,6 +52,14 @@
 <h3>Anssi Lehtimäki</h3>
 <span class="belt-badge belt-black">Black Belt</span>
 <p class="instructor-role">BJJ Basic Course</p>
+</div>
+</div>
+
+<div class="instructor-card">
+<img src="images/instructors/jukkaj.jpg" alt="Jukka Järvinen">
+<div class="instructor-info">
+<h3>Jukka Järvinen</h3>
+<span class="belt-badge belt-black">Black Belt</span>
 </div>
 </div>
 
@@ -110,7 +110,7 @@
 <img src="images/instructors/heikkip.jpg" alt="Heikki Palosaari">
 <div class="instructor-info">
 <h3>Heikki Palosaari</h3>
-<span class="belt-badge belt-purple">Purple Belt</span>
+<span class="belt-badge belt-blue">Blue Belt</span>
 <p class="instructor-role">BJJ Juniors · Family Jujutsu · BJJ Basic Course</p>
 </div>
 </div>
@@ -159,7 +159,7 @@
 <img src="images/instructors/bengt.jpeg" alt="Bengt Sahlin">
 <div class="instructor-info">
 <h3>Bengt Sahlin</h3>
-<span class="belt-badge belt-brown">Brown Belt 2.kyu</span>
+<span class="belt-badge belt-brown">Brown Belt 1.kyu</span>
 </div>
 </div>
 
