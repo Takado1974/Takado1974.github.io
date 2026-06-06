@@ -30,6 +30,14 @@
 </div>
 
 <div class="instructor-card">
+<img src="images/instructors/jukkaj.jpg" alt="Jukka Järvinen">
+<div class="instructor-info">
+<h3>Jukka Järvinen</h3>
+<span class="belt-badge belt-black">1. Asteen Musta vyö</span>
+</div>
+</div>
+
+<div class="instructor-card">
 <img src="images/instructors/oskaril.jpg" alt="Oskari Loikkanen">
 <div class="instructor-info">
 <h3>Oskari Loikkanen</h3>
@@ -52,14 +60,6 @@
 <h3>Anssi Lehtimäki</h3>
 <span class="belt-badge belt-black">Musta vyö</span>
 <p class="instructor-role">BJJ Peruskurssi</p>
-</div>
-</div>
-
-<div class="instructor-card">
-<img src="images/instructors/jukkaj.jpg" alt="Jukka Järvinen">
-<div class="instructor-info">
-<h3>Jukka Järvinen</h3>
-<span class="belt-badge belt-black">Musta vyö</span>
 </div>
 </div>
 
@@ -110,7 +110,7 @@
 <img src="images/instructors/heikkip.jpg" alt="Heikki Palosaari">
 <div class="instructor-info">
 <h3>Heikki Palosaari</h3>
-<span class="belt-badge belt-blue">Sininen vyö</span>
+<span class="belt-badge belt-purple">Purppura vyö</span>
 <p class="instructor-role">BJJ Juniorit · Perhejujutsu · BJJ Peruskurssi</p>
 </div>
 </div>
@@ -159,7 +159,7 @@
 <img src="images/instructors/bengt.jpeg" alt="Bengt Sahlin">
 <div class="instructor-info">
 <h3>Bengt Sahlin</h3>
-<span class="belt-badge belt-brown">Ruskea vyö 1.kyu</span>
+<span class="belt-badge belt-brown">Ruskea vyö 2.kyu</span>
 </div>
 </div>
 
