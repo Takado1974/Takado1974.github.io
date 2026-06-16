@@ -5,6 +5,8 @@ Takado ry is a non-profit association that offers training in traditional martia
 **Organization details**
 
 Takado ry, ID:2452402-8
+
 Pihatörmä 1D, 4.krs, 02240 Espoo
+
 takado@takado.fi
 
