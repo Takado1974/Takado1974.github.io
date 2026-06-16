@@ -5,7 +5,9 @@ Takado ry on voittoa tavoittelematon yhdistys, joka tarjoaa lapsille ja aikuisil
 **Yhdistystiedot**
 
 Takado ry, ID:2452402-8
+
 Pihatörmä 1D, 4.krs, 02240 Espoo
+
 takado@takado.fi
 
 
