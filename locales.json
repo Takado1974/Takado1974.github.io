@@ -20,7 +20,8 @@
         "footer_social": "Löydät meidät myös",
         "footer_myclub": "myClub",
         "footer_important": "Tärkeää tietoa",
-        "footer_rules": "Salin säännöt"
+        "footer_rules": "Salin säännöt",
+        "footer_about": "Tietoa meistä"
     },
     "en": {
         "nav_tule_mukaan": "Join us",
@@ -43,6 +44,7 @@
         "footer_social": "Find us also on",
         "footer_myclub": "myClub",
         "footer_important": "Important information",
-        "footer_rules": "Gym rules"
+        "footer_rules": "Gym rules",
+        "footer_about": "About Takado"
     }
 }
