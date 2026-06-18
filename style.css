@@ -522,7 +522,7 @@ main#content tr:nth-child(even) {
 }
 
 .cell-overstrike {
-    text-decoration: overline;
+    text-decoration: line-through;
 }
 
 .cell-line:last-child {
