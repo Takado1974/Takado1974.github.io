@@ -2,6 +2,8 @@
 
 Here you can find the current training schedules for our various disciplines.
 
+**In July, some of the training sessions are on summer break; cancelled sessions are crossed out in the calendar. During the summer period, there may be extra training sessions at short notice, which will be updated in myClub.**
+
 <h2 id="bjj">Brazilian Jiu-Jitsu (BJJ)</h2>
 
 **Address**: Pihatörmä 1D 4th floor (Länsikeskus / Piispanportti)
