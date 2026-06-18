@@ -521,6 +521,10 @@ main#content tr:nth-child(even) {
     line-height: 1.2;
 }
 
+.cell-overstrike {
+    text-decoration: overline;
+}
+
 .cell-line:last-child {
     margin-bottom: 0;
     color: #888;
