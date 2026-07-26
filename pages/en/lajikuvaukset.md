@@ -68,6 +68,9 @@ From the beginning, you can also use a judo, BJJ, jujutsu, karate, or taekwondo 
 
 Pihatörmä has dressing rooms for both men and women, as well as shower facilities. The facilities are locked, but we recommend that you do not leave anything valuable in the dressing rooms.
 
+### Oheismateriaali
+EJJ practitioners have access also to [supplementary material](https://mkomu.kapsi.fi/takado/ejj/oheismateriaali/) which requires a password. The material is available for practitioners who have paid EJJ training fees by asking the password for the instructors. The material describes belt examination requirements and includes links to techniques and to related literature.
+
 <h2 id="escrima">Escrima</h2>
 
 ![Escrima](images/lajit_escrima.jpg)

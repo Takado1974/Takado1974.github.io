@@ -68,6 +68,10 @@ Alusta lähtien voi myös käyttää judo-, BJJ-, jujutsu-, karate-, taekwondo t
 
 Pihatörmässä on sekä miesten että naisten pukuhuoneet, sekä myös suihkutilat. Tilat ovat lukitut mutta suosittelemme ettette jätä mitään arvokasta pukuhuoneisiin.
 
+### Oheismateriaali
+EJJ harjoittelijoiden käytössä on myös [oheismateriaalia](https://mkomu.kapsi.fi/takado/ejj/oheismateriaali/), joka on salasanan takana. Oheismateriaali on EJJ harjoitusmaksut maksaneiden harjoittelijoiden käytössä ja saat siihen  salasanan ohjaajilta. Oheismateriaalissa on kuvattu mm. vyökoevaatimukset, linkkejä tekniikoihin ja kirjallisuuteen.
+
+
 <h2 id="escrima">Escrima</h2>
 
 ![Escrima](images/lajit_escrima.jpg)
