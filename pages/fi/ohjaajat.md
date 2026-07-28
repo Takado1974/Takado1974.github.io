@@ -55,7 +55,7 @@
 </div>
 
 <div class="instructor-card">
-<img src="images/instructors/anssil.jpg" alt="Anssi Lehtimäki">
+<img src="images/instructors/anssil.jpeg" alt="Anssi Lehtimäki">
 <div class="instructor-info">
 <h3>Anssi Lehtimäki</h3>
 <span class="belt-badge belt-black">Musta vyö</span>
