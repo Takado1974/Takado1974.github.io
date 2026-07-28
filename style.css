@@ -749,8 +749,8 @@ main#content .instructor-card img {
 .belt-blue { background-color: #1565C0; }
 
 .instructor-role {
-    font-size: 0.82rem;
-    color: #777;
+    font-size: 0.82rem !important;
+    color: #777 !important;
     margin: 0;
     line-height: 1.4;
 }
