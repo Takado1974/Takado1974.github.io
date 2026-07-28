@@ -8,7 +8,7 @@
 <img src="images/instructors/markkuj.jpg" alt="Markku Juntunen">
 <div class="instructor-info">
 <h3>Markku Juntunen</h3>
-<span class="belt-badge belt-black">4. Asteen musta vyö</span>
+<span class="belt-badge belt-black">5. Asteen musta vyö</span>
 <p class="instructor-role">BJJ Päävalmentaja</p>
 </div>
 </div>
