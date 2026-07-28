@@ -8,7 +8,7 @@
 <img src="images/instructors/markkuj.jpg" alt="Markku Juntunen">
 <div class="instructor-info">
 <h3>Markku Juntunen</h3>
-<span class="belt-badge belt-black">4th Degree Black Belt</span>
+<span class="belt-badge belt-black">5th Degree Black Belt</span>
 <p class="instructor-role">BJJ Head Coach</p>
 </div>
 </div>
