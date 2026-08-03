@@ -13,7 +13,7 @@ Täältä löydät voimassa olevat harjoitusaikataulut eri lajeillemme.
 | **18:00 - 18:00**<br>BJJ kisatreenit<br>Oskari/Suvi | **16:30 - 18:00**<br>Open Mat<br>Suvi | **17:00 - 18:30**<br>Kilpailijoiden drillivuoro<br>- | **16:30 - 18:00**<br>BJJ Afterwork No-Gi<br>Joni/Siiri | **16:45 - 18:15**<br><div class="cell-overstrike">BJJ naiset</div><br>Suvi/Siiri | **13:30 - 14:20**<br><div class="cell-overstrike">Perhejujutsu</div><br>Heikki | **14:00 - 15:15**<br>Juniorit - Koalat<br>Mikko |
 | | **18:00 - 19:30**<br>BJJ peruskurssi<br>Anssi ja Kivi | **17:00 - 18:15**<br>Juniorit - Pandat<br>Peter | **18:00 - 19:30**<br>BJJ peruskurssi<br>Anssi ja Kivi | **18:15 - 19:45**<br>BJJ jatkotekniikka<br>Jarkko | | **15:15 - 16:30**<br>Juniorit - Pandat<br>Peter |
 | | **19:30 - 20:45**<br>BJJ jatkotekniikka<br>Markku | **18:15 - 19:30**<br>Juniorit - Nuoret<br>Ilkka | **19:30 - 20:45**<br>Itsepuolustus ja vapaaottelu<br>Markku | | | **16:30 - 17:45**<br>Juniorit - Nuoret<br>Ilkka |
-| | | **19:45 - 21:00**<br><div class="cell-overstrike">BJJ Jatkotekniikka</div><br>Greger | | | | **18:00 - 19:30**<br>BJJ Jatkotekniikka<br>Markku |
+| | | **19:30 - 20:45**<br>BJJ Jatkotekniikka<br>Greger | | | | **18:00 - 19:30**<br>BJJ Jatkotekniikka<br>Markku |
 
 <h2 id="ejj">Eurooppalainen jujutsu</h2>
 
