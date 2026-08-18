@@ -24,8 +24,8 @@ Takado ry käyttää myClubia jäsentietojen, tapahtumien ja laskujen hallintaan
 
 #### BJJ juniorit ja nuoret:
 
-* Syksy- tai kevätkausi  koalat 110 €
-* Syksy- tai kevätkausi pandat ja nuoret 150 €
+* Syksy- tai kevätkausi  koalat 120 €
+* Syksy- tai kevätkausi pandat ja nuoret 160 €
 * Lapsi-vanhempi ryhmä 50 €/ kevät- tai syyskausi (Sisältyy harrastusmaksuun niille harrastajille, joilla 1v tai 6kk voimassaoleva harrastusmaksu johonkin Takadon lajiin).
 
 
