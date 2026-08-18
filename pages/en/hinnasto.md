@@ -13,8 +13,8 @@ Takado ry uses myClub for managing membership data, events, and invoicing. Membe
 * 10 Sessions 80 €
 
 #### BJJ Juniors and Youth:
-* Autumn or Spring Season (Koalas) 110 €
-* Autumn or Spring Season (Pandas and Youth) 150 €
+* Autumn or Spring Season (Koalas) 120 €
+* Autumn or Spring Season (Pandas and Youth) 160 €
 * Parent-Child Group 50 € / Autumn or Spring Season (Included in the training fee for those with a valid 1-year or 6-month training fee for any Takado discipline).
 
 #### EJJ and Escrima:
