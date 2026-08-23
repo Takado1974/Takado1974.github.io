@@ -2,6 +2,8 @@
 
 Welcome to start Brazilian Jiu-Jitsu at Takado!
 
+**Next basic course begins at 15.9.2026**
+
 **Takado's basic course, or basic technique sessions**, has been developed over the years into a functional entity that includes the most important techniques of BJJ and also provides readiness for effective self-defense. Takado is a member of Alliance, the world's most successful BJJ team, and the basic course follows Alliance's high quality standards: 20 carefully planned lessons containing 85 basic techniques, which are practiced as clear modules during the basic course. After the basic course, you can continue training with goals that suit you, for example, emphasizing competition, self-defense, or fitness.
 
 * Training sessions on Tue & Thu at 6 PM
