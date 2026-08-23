@@ -14,7 +14,7 @@ Takadolta löytyvät
 
 Uutena harrastajana pääset parhaiten mukaan käymällä valitsemasi lajin peruskurssin. Seuraavat alkavat peruskurssit:
 
-* **BJJ aikuiset: kausi käynnissä, kysele vapaita paikkoja ja seuraavaa peruskurssin aloituspäivää!**
+* **BJJ aikuiset: kausi käynnissä, kysele vapaita paikkoja. Seuraava peruskurssi 15.9.2026!**
 * **BJJ junnut: kausi käynnissä, kysele vapaita paikkoja!**
 * **EJJ non-stop aloitus uusille harrastajille keskiviikkoisin ja sunnuntaisin**
 
