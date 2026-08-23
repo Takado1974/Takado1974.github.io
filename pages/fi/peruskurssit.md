@@ -4,7 +4,7 @@
 
 Tervetuloa aloittamaan brasilialainen jujutsu Takadolla!
 
-
+**Seuraava peruskurssi alkaa 15.9.2026**
 
 **Takadon peruskurssi eli perustekniikkavuorot** on vuosien aikana kehitetty toimivaksi kokonaisuudeksi, joka sisältää BJJ:n tärkeimmät tekniikat ja antaa lisäksi valmiudet toimivaan itsepuolustukseen. Takado on maailman menestyneimmän BJJ tiimi Alliancen jäsen ja peruskurssi noudattaa Alliancen korkeaa laatutasoa: 20 tarkkaan suunniteltua oppituntia sisältävät 85 perustekniikkaa, joita harjoitellaan peruskurssin aikana selkeinä kokonaisuuksina.  Peruskurssin jälkeen voit jatkaa harjoittelua itsellesi sopivin tavoittein esimerkiksi painottaen kilpailemista, itsepuolustusta tai kuntoilua.
 
