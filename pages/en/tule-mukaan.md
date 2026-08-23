@@ -14,7 +14,7 @@ At Takado, you will find:
 
 As a new practitioner, the best way to get started is by attending the basic course of your chosen discipline. Next basic courses:
 
-* **BJJ adults: season in progress, ask about available spots and the next basic course start date!**
+* **BJJ adults: season in progress, ask about available spots. Next basic course 15.9.2026!**
 * **BJJ juniors: season in progress, ask about available spots!**
 * **EJJ non-stop start for new practitioners on Wednesdays and Sundays**
 
