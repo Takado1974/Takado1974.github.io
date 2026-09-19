@@ -67,7 +67,7 @@
 <img src="images/instructors/kivi.jpg" alt="Kivi Sotamaa">
 <div class="instructor-info">
 <h3>Kivi Sotamaa</h3>
-<span class="belt-badge belt-brown">Ruskea vyö</span>
+<span class="belt-badge belt-black">Musta vyö</span>
 <p class="instructor-role">BJJ Peruskurssi</p>
 </div>
 </div>
@@ -84,7 +84,7 @@
 <img src="images/instructors/ilkkas.jpg" alt="Ilkka Sutinen">
 <div class="instructor-info">
 <h3>Ilkka Sutinen</h3>
-<span class="belt-badge belt-brown">Ruskea vyö</span>
+<span class="belt-badge belt-black">Musta vyö</span>
 <p class="instructor-role">BJJ Juniorit</p>
 </div>
 </div>
