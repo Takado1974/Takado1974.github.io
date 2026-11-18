@@ -72,7 +72,7 @@ Renata, harjoitellut Takadolla 5 vuotta"</blockquote>
 <img src="images/instructors/ilkkas.jpg" alt="Ilkka Sutinen">
 <div class="instructor-info">
 <h3>Ilkka Sutinen</h3>
-<span class="belt-badge belt-brown">Ruskea vyö</span>
+<span class="belt-badge belt-black">Musta vyö</span>
 <p class="instructor-role">BJJ Nuoret</p>
 </div>
 </div>
@@ -90,7 +90,7 @@ Renata, harjoitellut Takadolla 5 vuotta"</blockquote>
 <img src="images/instructors/heikkip.jpg" alt="Heikki Palosaari">
 <div class="instructor-info">
 <h3>Heikki Palosaari</h3>
-<span class="belt-badge belt-blue">Sininen vyö</span>
+<span class="belt-badge belt-purple">Purppura vyö</span>
 <p class="instructor-role">Perhejujutsu</p>
 </div>
 </div>
